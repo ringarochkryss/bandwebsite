@@ -1,0 +1,107 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Spicy Rice', cursive;
+f*/
+
+
+/*-----------------bakgrund----------*/
+
+body {
+    background-color: #d9a300;
+    background-image: url("/images/0001.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+}
+
+
+/*-----------------Navbar---------------------*/
+
+.btn-cream{
+    border-top: 30;
+    background-color: #f2Bb0c;
+    border-bottom-width: thick;
+    border-color: #fdffe5;
+    color:#fdffe5;
+    font-family: 'Spicy Rice 400', default;
+}
+
+
+.btn-cream:hover{
+    color:#5b9bd5;
+}
+
+.btn-home {
+    border-top: 30;
+    border-width: thick;
+    border-color: #fdffe5;
+    color:#fdffe5;
+    padding: 0;
+    font-size:30px;
+   display:inline-block;
+   width:60px;
+   height: 60px;
+
+}
+
+.btn-home:hover{
+    color:#f2Bb0c;
+}
+
+.fa-bars{
+    border-color: #fdffe5;
+    color:#fdffe5;
+}
+
+.fa-bars:hover{
+    color:#f2Bb0c;
+}
+
+
+/*--------------------------Section Overall------------------------*/
+section{
+      padding-top: 150px;
+      font-family: 'Spicy Rice', default;
+
+}
+
+
+/*--------------------------Section --Index------------------------*/
+
+
+/*--------------------------Section --radio & tv------------------------*/
+
+
+/*--------------------------Section --Contact-------------------------*/
+
+
+
+/*------------------------Footer--------------------------*/
+
+.footbg {
+    background-color: #5b9bd5;
+}
+
+.footerlogo{
+max-width: 10rem;
+text-align: center;
+vertical-align: middle;
+transition-timing-function: ease-in-out;
+-webkit-transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+-o-transition-timing-function: ease-in-out;
+
+
+}
+
+.footerlogo:hover{
+    content: url('/images/monkeeslogosblgul.jpg');
+    max-width: 10rem;
+    text-align: center;
+    vertical-align: middle;
+  transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+}
