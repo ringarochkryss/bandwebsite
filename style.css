@@ -24,7 +24,6 @@ body {
     border-bottom-width: thick;
     border-color: #fdffe5;
     color:#fdffe5;
-    font-family: 'Spicy Rice 400', default;
 }
 
 
@@ -60,7 +59,7 @@ body {
 
 
 /*--------------------------Section Overall------------------------*/
-section{
+h1{
       padding-top: 150px;
       font-family: 'Spicy Rice', default;
 
