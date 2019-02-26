@@ -1,6 +1,12 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Spicy Rice', cursive;
+f*/
+
+
 /*-----------------bakgrund----------*/
 
 body {
+    margin-top: 150px;
     background-color: #d9a300;
     background-image: url("/images/0001.jpg");
     background-repeat: no-repeat;
@@ -8,6 +14,7 @@ body {
     -webkit-background-size:cover;
     -o-background-size:cover;
     -moz-background-size:cover;
+
 }
 
 
@@ -19,6 +26,8 @@ body {
     border-bottom-width: thick;
     border-color: #fdffe5;
     color:#fdffe5;
+     font-family: "Spicy Rice", sans-serif;
+     font-size: x-large;
 }
 
 
@@ -36,6 +45,7 @@ body {
    display:inline-block;
    width:60px;
    height: 60px;
+   font-family:default;
 
 }
 
@@ -54,12 +64,215 @@ body {
 
 
 /*--------------------------Section Overall------------------------*/
-section{
-      padding-top: 150px;
+
+
+/*--------------------------Index left side------------------------*/
+
+
+
+/*-------Drum Index left side----------*/
+
+.drumindex{
+    height:20em;
+    padding: 2rem;
+    background-image: url("/images/monkeesdrumtrans2.png");
+    background-color: transparent;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.drumindex:hover {
+    background-color: rgb(91,155,213,0.3);
+}
+
+@media screen and (min-width:1024px){
+    .drumindex {
+        height: 34rem;
+        background-size: 60%
+        background-position: top right;
+        
+    }
+}
+
+/*-------Radio Index left side----------*/
+
+.radioindex{
+    height:20em;
+    padding: 2rem;
+    background-image: url("/images/radio trans.png");
+    background-color: transparent;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 
 
-/*--------------------------Section --Index------------------------*/
+.radioindex:hover {
+    background-color: rgb(91,155,213,0.3);
+}
+
+/*-------Tv Index left side----------*/
+
+.tvindex{
+    height:20em;
+    padding: 2rem;
+    background-image: url("/images/tv trans.png");
+    background-color: transparent;
+    background-position: center;
+    background-size: 70%;
+   background-repeat: no-repeat;
+}
+
+.tvindex:hover {
+    background-color: rgb(91,155,213,0.3);
+}
+
+
+@media screen and (min-width:1024px){
+    .tvindex {
+        height:30em;
+        background-position: center bottom;
+    }
+}
+
+/*-------SPACE----------*/
+
+.indexbetween{
+    background-color: transparent;
+    height:10px;
+}
+
+
+/*-------Artists Index left side Currently cut...----------*/
+
+.artistindex1{
+    background-image: url("/images/djfix.JPG");
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.artistindex2{
+    background-image: url("/images/mdfix.JPG");
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+}
+.artistindex3{
+    background-image: url("/images/mnfix.JPG");
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.artistindex4{
+    background-image: url("/images/ptfix.JPG");
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*-------Text Index left side----------*/
+
+.leftsideparagraph {
+      color:#fdffe5;
+   font-family: 'Raleway', sans-serif;
+   
+}
+
+.leftsideheader1 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: xx-large;
+    text-transform: uppercase;
+    position: relative;
+    top:60%;
+    transform: translateY (-60%);
+    text-align: center;
+    color:#fdffe5;
+}
+
+
+.drumheaderi {
+    color:#5b9bd5;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    transform: translateY(50%);
+    transform: translateX(80%);
+    transform: rotate(-20deg);
+}
+
+.radioheaderi {
+    color:#5b9bd5;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    top:40%;
+    transform: translateY(-40%);
+    text-align: center;
+    
+    
+}
+
+.tvheaderi {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    position: relative;
+    top:60%;
+    transform: translateY(-60%);
+    text-align: center;
+    color:#fdffe5;
+    
+}
+
+.indexbetween {
+    font-family: 'Spicy Rice', cursive;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: top right;
+    color:#fdffe5;
+}
+
+
+
+
+/*--------------------------Index right side------------------------*/
+.Newsheader{
+    font-family: 'Spicy Rice', cursive;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.newsparagraph{
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+}
+
+.carlinkblue{
+   color:#5b9bd5;
+   font-family: 'Raleway', sans-serif;
+}
+
+
+.indexcard{
+   background-color: #fdffe5;
+   border-width:10px;
+   border-color:#5b9bd5; 
+}
+
+.bookcard{
+    margin-top: 20rem;
+}
+
+/*--------------------------Section --Index//------------------------*/
 
 
 /*--------------------------Section --radio & tv------------------------*/
