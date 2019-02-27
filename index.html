@@ -23,14 +23,13 @@
  
   
     <!----------- Home button ---------->
-                  <button type="button" class=" btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off">
-                    <span>
-                  <i class="fas fa-home"></i>
-                  <a class="navbar-brand" href="index.html"></a>
-                  </span></button>
-                  
 
+            <a class="btn-home active btn btn-lg rounded-circle" 
+            href="/index.html"
+            role="button"><span>
+                <i class="fas fa-home"></i>
+                </span>
+            </a>
 
 <!----------------------- Nested Navbar---------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
@@ -47,51 +46,49 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen------------>
-      <li class="nav-item">
-        <a class="nav-link" href="listen.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off">
-                <span><i class="fas fa-headphones-alt"></i></span>
-                Listen</button>
-        </a>
-      </li>
-      <!----------- Look------------>
-      <li class="nav-item">
-        <a class="nav-link" href="look.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+    <!----------- Listen/Radio------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/radio.html"
+            role="button"><span>
+                <i class="fas fa-headphones-alt"></i>
+                Listen</span>
+            </a></li> 
+      
+      <!----------- Look/Tv------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/tv.html"
+            role="button"><span>
                 <i class="fas fa-video"></i>
-                </span>Look</button>
-        </a>
-      </li>
+                Look</span>
+            </a></li> 
+      
+      
       <!----------- Book------------>
-      <li class="nav-item">
-        <a class="nav-link" href="book.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/book.html"
+            role="button"><span>
                 <i class="fas fa-phone"></i>
-                </span>Book</button>
-        </a>
-      </li>
+                Book</span>
+            </a></li>
+      
+      
       <!----------- About------------>
-            <li class="nav-item">
-        <a class="nav-link" href="about.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
-                <i class="fas fa-microphone-alt"></i>
-                </span>About</button>
-        </a>
-      </li>
-      <!----------- Contact------------>
-            <li class="nav-item">
-        <a class="nav-link" href="contact.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
                 <i class="fas fa-envelope-open"></i>
-                </span>Contact</button>
-        </a>
-      </li>
+                About</span>
+            </a></li>
+      
+      <!----------- Contact------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/contact.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                Contact</span>
+            </a></li>
+        
+      
     </ul>
     </div>
 </nav>
@@ -175,8 +172,8 @@
             <div class="row d-none d-md-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                    <a href="/about.html" target="_blank" class="cardikon">
-                    <h5 class="card-title Newsheader">BOOK THE BAND!</h5></a>
+                    <a href="/book.html" target="_blank">
+                    <h5 class="card-title Newsheader cardheadbook">BOOK THE BAND!</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">Are you a believer!</h6>
             <p class="card-text newsparagraph">We play at partys, weddings and funerals
             and we are still going strong! Get Monkeefied -  Book the Monkees today!</p>

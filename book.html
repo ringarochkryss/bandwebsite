@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="viewport" content="width-device-width, initial-scale-1">
        
-       <title>Index</title>
+       <title>book</title>
     </head>
     
 
@@ -23,14 +23,13 @@
  
   
     <!----------- Home button ---------->
-                  <button type="button" class=" btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off">
-                    <span>
-                  <i class="fas fa-home"></i>
-                  <a class="navbar-brand" href="/index.html"></a>
-                  </span></button>
-                  
 
+            <a class="btn-home active btn btn-lg rounded-circle" 
+            href="/index.html"
+            role="button"><span>
+                <i class="fas fa-home"></i>
+                </span>
+            </a>
 
 <!----------------------- Nested Navbar---------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
@@ -47,51 +46,49 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen------------>
-      <li class="nav-item">
-        <a class="nav-link" href="/radio.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off">
-                <span><i class="fas fa-headphones-alt"></i></span>
-                Listen</button>
-        </a>
-      </li>
-      <!----------- Look------------>
-      <li class="nav-item">
-        <a class="nav-link" href="/tv.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+    <!----------- Listen/Radio------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/radio.html"
+            role="button"><span>
+                <i class="fas fa-headphones-alt"></i>
+                Listen</span>
+            </a></li> 
+      
+      <!----------- Look/Tv------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/tv.html"
+            role="button"><span>
                 <i class="fas fa-video"></i>
-                </span>Look</button>
-        </a>
-      </li>
+                Look</span>
+            </a></li> 
+      
+      
       <!----------- Book------------>
-      <li class="nav-item">
-        <a class="nav-link" href="/book.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/book.html"
+            role="button"><span>
                 <i class="fas fa-phone"></i>
-                </span>Book</button>
-        </a>
-      </li>
+                Book</span>
+            </a></li>
+      
+      
       <!----------- About------------>
-            <li class="nav-item">
-        <a class="nav-link" href="about.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
-                <i class="fas fa-microphone-alt"></i>
-                </span>About</button>
-        </a>
-      </li>
-      <!----------- Contact------------>
-            <li class="nav-item">
-        <a class="nav-link" href="contact.html">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
                 <i class="fas fa-envelope-open"></i>
-                </span>Contact</button>
-        </a>
-      </li>
+                About</span>
+            </a></li>
+      
+      <!----------- Contact------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/contact.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                Contact</span>
+            </a></li>
+        
+      
     </ul>
     </div>
 </nav>
@@ -107,38 +104,10 @@
 
 <div class="container-flex">
     <div class="row">
-<!--------------------------- Radio Left side------------------------------>
-
-        <div class="col-xs-11 col-sm-7 offset-1 mr-auto">
-            <div class="row d-lg-none">
+<!--------------------------- Book Left side------------------------------>
+<div class="col-xs-11 col-sm-7 offset-1 mr-auto">
+            <div class="row d-lg-none"><h1>Book</h1>
  
-            <figure>
-             <figcaption class="musictitles">Clarksville</figcaption> 
-              <audio id="sound1" controls src="/sound/Clarksville.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure>
-             <figcaption class="musictitles">Day dream believer</figcaption> 
-              <audio id="sound1" controls src="/sound/DaydreamBeliever.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure>
-             <figcaption class="musictitles">I'm a believer</figcaption> 
-              <audio id="sound1" controls src="/sound/ImABeliever.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure>
-             <figcaption class="musictitles">Stepping stone</figcaption> 
-              <audio id="sound1" controls src="/sound/SteppingStone.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
             
             </div>
         </div>
@@ -146,40 +115,11 @@
         <div class="col-xs-11 col-sm-7 offset-1 mr-auto">
             <div class="row d-none d-lg-block">
                 
-            <figure>
-             <figcaption class="musictitles">Clarksville</figcaption> 
-              <audio id="sound1" controls src="/sound/Clarksville.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure class="musicmachine">
-             <figcaption class="musictitles">Day dream believer</figcaption> 
-              <audio id="sound1" controls src="/sound/DaydreamBeliever.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure>
-             <figcaption class="musictitles">I'm a believer</figcaption> 
-              <audio id="sound1" controls src="/sound/ImABeliever.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
-            
-            <figure>
-             <figcaption class="musictitles">Stepping stone</figcaption> 
-              <audio id="sound1" controls src="/sound/SteppingStone.mp3" preload="auto">
-              Your browser does not support the audio element.
-                </audio>
-            </figure>
             
             </div>
         </div>
 
-
-
-<!---------------------------Radio Right side------------------------------>
+<!---------------------------Book Right side------------------------------>
         <div class="col-xs-12 col-xl-4 auto">
             
             <div class="row d-none d-xl-block">

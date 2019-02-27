@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="viewport" content="width-device-width, initial-scale-1">
        
-       <title>Index</title>
+       <title>about</title>
     </head>
     
 
@@ -23,18 +23,16 @@
  
   
     <!----------- Home button ---------->
-                  <button type="button" class=" btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off">
-                    <span>
-                  <i class="fas fa-home"></i>
-                  <a class="navbar-brand" href="index.html"></a>
-                  </span></button>
-                  
 
+            <a class="btn-home active btn btn-lg rounded-circle" 
+            href="/index.html"
+            role="button"><span>
+                <i class="fas fa-home"></i>
+                </span>
+            </a>
 
 <!----------------------- Nested Navbar---------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
-  <a class="navbar-brand" href="#"></a>
   
   
   <!----------------------- Navbar Collapse Button--------------->
@@ -48,51 +46,49 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen------------>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off">
-                <span><i class="fas fa-headphones-alt"></i></span>
-                Listen</button>
-        </a>
-      </li>
-      <!----------- Look------------>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+    <!----------- Listen/Radio------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/radio.html"
+            role="button"><span>
+                <i class="fas fa-headphones-alt"></i>
+                Listen</span>
+            </a></li> 
+      
+      <!----------- Look/Tv------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/tv.html"
+            role="button"><span>
                 <i class="fas fa-video"></i>
-                </span>Look</button>
-        </a>
-      </li>
+                Look</span>
+            </a></li> 
+      
+      
       <!----------- Book------------>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/book.html"
+            role="button"><span>
                 <i class="fas fa-phone"></i>
-                </span>Book</button>
-        </a>
-      </li>
+                Book</span>
+            </a></li>
+      
+      
       <!----------- About------------>
-            <li class="nav-item">
-        <a class="nav-link" href="#">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
-                <i class="fas fa-microphone-alt"></i>
-                </span>About</button>
-        </a>
-      </li>
-      <!----------- Contact------------>
-            <li class="nav-item">
-        <a class="nav-link" href="#">
-            <button type="button" class="btn btn-cream btn-block active"
-                data-toggle="button" aria-pressed="true" autocomplete="off"><span>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
                 <i class="fas fa-envelope-open"></i>
-                </span>Contact</button>
-        </a>
-      </li>
+                About</span>
+            </a></li>
+      
+      <!----------- Contact------------>
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/contact.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                Contact</span>
+            </a></li>
+        
+      
     </ul>
     </div>
 </nav>
@@ -108,58 +104,56 @@
 
 <div class="container-flex">
     <div class="row">
-<!---------------------------Index Left side------------------------------>
-        <div class="col-sm-7 mr-auto">
-            <div class="row">
-                <div class="col-sm-6 radioindex justify-content-between"><a href="radio.html">
-                    <h1 class="radioheaderi">Radio</a></h1></div>
-                <div class="col-sm-6 tvindex justify-content-between"><a href="tv.html">
-                    <h1 class="tvheaderi">tv</a></h1></div>
-            </div>
-            
-            <div class="row indexbetween">
-                <div class"col-sm-12"></div>
-             </div>
-             
-            <div class="row">
-                  <div class="col-sm-12 drumindex justify-content-between"><a href="drum.html">
-                    </a></div>
-            </div>
-            
+<!--------------------------- About Left side------------------------------>
+
+<div class="col-xs-11 col-sm-7 offset-1 mr-auto">
+            <div class="row d-lg-none"><h1>About</h1>
  
             
+            </div>
+        </div>
+        
+        <div class="col-xs-11 col-sm-7 offset-1 mr-auto">
+            <div class="row d-none d-lg-block">
+                
+            
+            </div>
         </div>
 
-<!---------------------------Index Right side------------------------------>
-        <div class="col-4 auto">
+
+<!---------------------------About Right side------------------------------>
+        <div class="col-xs-12 col-xl-4 auto">
             
-            <div class="row justify-content-center">
-                <div class="card indexcard rounded" style="width: 18rem;">
+            <div class="row d-none d-xl-block">
+                <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                    <h5 class="card-title Newsheader">in memoriam</h5>
-            <h6 class="card-subtitle mb-2 text-muted">...everlasting memory.</h6>
-            <p class="card-text newsparagraph">The lost of our band-member have shaken us all allthough we knew
-                it was a matter of time. </p>
-                    <a href="#" class="card-link carlinkblue">In Memoriam</a>
-                    <a href="#" class="card-link carlinkblue">Press release</a>
+                <a href="/index.html" target="_blank">
+                    <h5 class="card-title Newsheader cardheadbook">Fan shop</h5></a>
+            <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
+            <div class="cardikon">
+                    <a href="/about.html" target="_blank" class="cardikon">
+                        <i class="fa fa-shopping-cart"></i></a></div>
+   
                    </div>     
                </div>
             </div>
             
             <div class="row indexbetween">
-                <div class"col-sm-12"></div>
+                <div class"col-xl-12"></div>
             </div>
                     
-            <div class="row justify-content-center">
+            <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title Newsheader">COMING UP!</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Central Park June 6:th</h6>
-            <p class="card-text newsparagraph">We are happy to announce 
-            the news that we will act center band during the big Sweden-party in central park N.Y.
-            next weekend. See you there!!!</p>
-                    <a href="#" class="card-link carlinkblue">Calendar</a>
-                    <a href="#" class="card-link carlinkblue">Schedule</a>
+                    <div class="card-body">
+                <a href="/index.html" target="_blank">
+                    <h5 class="card-title Newsheader cardheadbook">get social!</h5></a>
+                    <h6 class="card-subtitle mb-2 text-muted">Join the community!</h6>
+            <div class="cardikon">
+                    <a href="/about.html" target="_blank" class="cardikon">
+                        <i class="fab fa-facebook-square"></i></a>
+                    <a href="/about.html" target="_blank" class="cardikon">
+                        <i class="fab fa-twitter-square"></i></a>
+                        </div>
                   </div>     
                </div>
             </div>
@@ -169,25 +163,19 @@
             </div>
             
             
-            <div class="row justify-content-center">
+            <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                    <h5 class="card-title Newsheader">BOOK THE BAND!</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Get Monkeefied today!</h6>
+                <a href="/book.html" target="_blank">
+                    <h5 class="card-title Newsheader cardheadbook">BOOK THE BAND!</h5></a>
+            <h6 class="card-subtitle mb-2 text-muted">Are you a believer!</h6>
             <p class="card-text newsparagraph">We play at partys, weddings and funerals
-            and we are still going strong! Get Monkeefied -  Book the Mankees today!</p>
-                    <a href="#" class="card-link carlinkblue">Contact</a>
+            and we are still going strong! Get Monkeefied -  Book the Monkees today!</p>
+                    <a href="book.html" class="card-link carlinkblue">Contact</a>
                   </div>     
                </div>
             </div>
-            
-            <div class="row sectionItem4>
-                <div class="col-sm-3 artistindex1 justify-content-around rounded-circle leftsidehover"></div>
-                <div class="col-sm-3 artistindex2 justify-content-around rounded-circle leftsidehover"></div>
-                <div class="col-sm-3 artistindex3 justify-content-around rounded-circle leftsidehover"></div>
-                <div class="col-sm-3 artistindex4 justify-content-around rounded-circle leftsidehover"></div>
-            </div>
-            
+
         </div> 
     </div>
 </div>
@@ -209,15 +197,10 @@
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
               
-
-
               <div class="col-4 col-md-4 vertical">
-    
-            <a href="contact.html">
+                <a href="contact.html">
                 <img class="footerlogo" src="/images/monkeeslogosblvit.JPG"></img></a>
-        
-                </div>
-                
+            </div>
                 
             <div class="col-8 col-md-4 d-flex justify-content-between">
                     
