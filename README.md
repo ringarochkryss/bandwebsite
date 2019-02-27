@@ -1,3 +1,17 @@
+X Milestone1 Training Pitch Make a website for a band.
+
+https://ringarochkryss.github.io/milestone1/
+
+Bootstrap 4 
+altered to look like a cartoonish 60:ts theme
+
+Pitch involve adding video, music-files and links to social media.
+
+Still some refinement to be done for index responsive.
+Nav collapse-button- could have a white border- would be nice...
+And the mp3-bars could been altered -but for now I am happy they are playing!
+
+
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
