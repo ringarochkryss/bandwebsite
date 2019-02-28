@@ -21,14 +21,22 @@ body {
 
 /*-----------------Navbar---------------------*/
 
+.navwelcome{
+    font-family: 'Spicy Rice', sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+    color:#222050;
+}
+
 .btn-cream{
     border-top: 30;
     background-color: #f2Bb0c;
     border-bottom-width: thick;
     border-color: #fdffe5;
     color:#fdffe5;
-     font-family: "Spicy Rice", sans-serif;
-     font-size: x-large;
+    font-family: "Raleway", sans-serif;
+    font-size: large;
 }
 
 
@@ -181,6 +189,8 @@ body {
 
 /*--------------------------Section --radio & tv------------------------*/
 
+
+
 .cardikon{
  border-top: 30;
     border-bottom-width: thick;
@@ -212,39 +222,50 @@ body {
 
 /*--------------------------Section --About------------------------*/
 
-/*-------Artists Index----------*/
 
-.artistindex1{
-    background-image: url("/images/djfix.JPG");
-    background-size: cover;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
+.artistimage{
+    background-color:transparent;
+    width:20%;
 }
 
-.artistindex2{
-    background-image: url("/images/mdfix.JPG");
-    background-size: cover;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50px;
-}
-.artistindex3{
-    background-image: url("/images/mnfix.JPG");
-    background-size: cover;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.artistindex4{
-    background-image: url("/images/ptfix.JPG");
-    background-size: cover;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
+.artistname{
+ font-family: 'Spicy Rice', cursive; 
 }
 
+.artistp{
+     font-family: 'Raleway', sans-serif; 
+}
+
+
+.cardikon2{
+ border-top: 10;
+    border-bottom-width: thick;
+    border-color:#fdffe5;
+    color:#222040;
+    font-size: 3rem;
+   padding-left: 7px;
+    text-align: center;
+     
+}
+
+.cardikon2:hover{
+    color:#5b9bd5;
+}
+
+.cardikon3{
+ border-top: 30;
+    border-bottom-width: thick;
+    border-color:#fdffe5;
+    color:#222040;
+    font-size: 5rem;
+   padding-left: 7px;
+    text-align: center;
+     
+}
+
+.cardikon3:hover{
+    color:#5b9bd5;
+}
 
 
 /*--------------------------Section --Contact-------------------------*/
