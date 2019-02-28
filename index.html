@@ -18,7 +18,7 @@
      <header>
     <!---------------------------------NAVBAR------------------------>
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler" style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
             
  
   
@@ -30,7 +30,12 @@
                 <i class="fas fa-home"></i>
                 </span>
             </a>
-
+            
+            <div class="d-none d-sm-block" style="text-align:center; color:#d9a300;">
+            <h1>THE MONKEES </h1>
+            </div>
+    
+          
 <!----------------------- Nested Navbar---------------------------------->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
   
@@ -40,7 +45,9 @@
   type="button" data-toggle="collapse" data-target="#navbarNav" 
   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
-  </button>
+  </button> 
+  
+  
   
     <!----------------------- Navbar buttons------------------->
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -87,7 +94,6 @@
                 <i class="fas fa-microphone-alt"></i>
                 Contact</span>
             </a></li>
-        
       
     </ul>
     </div>
@@ -107,23 +113,24 @@
 <!---------------------------Index Left side------------------------------>
         <div class="col-xs-12 col-sm-7 mr-auto">
             <div class="row">
-                <div class="col-xs-12 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center"><h1 class="indexh1left">listen</h1><a href="radio.html">
+                <div class="col-xs-12 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center"><a href="/radio.html"><h1 class="indexh1left">listen</h1><a href="radio.html">
                     <img src="/images/radio trans.png" class="img-fluid indexhoverleft" alt="radio"></img>
                     </a></div>
+                    
                 <div class="col-xs-12 col-lg-6 col-xl-4  order-1 order-lg-2 justify-content-center">
-                   <h1 class="indexh1left">Look</h1>
+                   <a href="/tv.html"><h1 class="indexh1left">Look</h1>
                     <a href="tv.html">
                     <img src="/images/tv trans.png" class="img-fluid indexhoverlefttv" alt="tv"></img>
                     </a></div>
                     
-                <div class="row col-xl-4 justify-content-center indexdrum d-none d-xl-block"><a href="about.html">
+                <div class="row col-xl-4 justify-content-center indexdrum d-none d-xl-block"><a href="/about.html">
                 <div class="indexh1leftdrum">about</div>
                     <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleft" alt="bassdrum"></img>
                     </a>
             </div>
             </div>
             
-            <div class="row col-xs-12 col-xl-4 justify-content-center indexdrum d-xl-none"><a href="about.html">
+            <div class="row col-xs-12 col-xl-4 justify-content-center indexdrum d-xl-none"><a href="/about.html">
                 <div class="indexh1leftdrum">about</div>
                     <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleft" alt="bassdrum"></img>
                     </a>
@@ -198,35 +205,40 @@
      </section>
      
      
-      <!-------------------------------footer----------------------------------->
+      <!-------------------------------footer-------------------------------->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
+            
+       <!-------------lOGO--------------->
               
               <div class="col-4 col-md-4 vertical">
                 <a href="contact.html">
                 <img class="footerlogo" src="/images/monkeeslogosblvit.JPG"></img></a>
             </div>
-                
+        
+        <!-------------YOUTUBE--------------->
             <div class="col-8 col-md-4 d-flex justify-content-between">
-                    
-                  <button type="button" class="btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off"><span>
-                  <td><i class="fab fa-youtube"></i></td>
-                  <a class="navbar-brand" href="index.html"></a>
-                  </span></button>
                   
-                   <button type="button" class="btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off"><span>
-                  <i class="fab fa-twitter-square"></i>
-                  <a class="navbar-brand" href="index.html"></a>
-                  </span></button>
-                  
-                   <button type="button" class="btn btn-home btn-lg rounded-circle"
-                    data-toggle="button" aria-pressed="false" autocomplete="off"><span>
-                  <i class="fab fa-facebook"></i>
-                  <a class="navbar-brand" href="index.html"></a>
-                  </span></button>
+                <a class="btn-home active btn btn-lg rounded-circle" 
+                    href="http://www.youtube.com/themonkees"
+                    role="button">
+                    <span><i class="fab fa-youtube"></i></span>
+                </a>
+        <!-------------TWITTER--------------->
+        
+                <a class="btn-home active btn btn-lg rounded-circle" 
+                    href="https://twitter.com/monkeesofficial"
+                    role="button">
+                    <span><i class="fab fa-twitter-square"></i></span>
+                </a>
+        <!-------------FACEBOOK---------------> 
+
+                <a class="btn-home active btn btn-lg rounded-circle" 
+                    href="https://www.facebook.com/TheMonkees"
+                    role="button">
+                    <span><i class="fab fa-facebook"></i></span>
+                </a>
 
             </div
             
