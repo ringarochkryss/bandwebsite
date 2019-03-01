@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -9,20 +9,20 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="viewport" content="width-device-width, initial-scale-1">
        
-       <title>about</title>
+       <title>Index</title>
     </head>
     
 
     <body>
         
      <header>
-    <!---------------------------------NAVBAR------------------------>
+    <!--................NAVBAR..........................-->
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler" style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
             
  
   
-    <!----------- Home button ---------->
+    <!--............ Home button.....................-->
 
             <a class="btn-home active btn btn-lg rounded-circle" 
             href="/index.html"
@@ -31,26 +31,38 @@
                 </span>
             </a>
             
-            <div class="d-none d-sm-block" style="text-align:center; color:#d9a300;">
-                <h1>THE MONKEES </h1>
+            <div class="d-none d-sm-block" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html" class="indexh1left"><h1>THE MONKEES </h1></a>
             </div>
-
-<!----------------------- Nested Navbar---------------------------------->
+    
+          
+<!--.......................Nested Navbar..........................-->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
   
   
-  <!----------------------- Navbar Collapse Button--------------->
+  <!--...................Navbar Collapse Button......................-->
   <button class="navbar-toggler btn-home btn-lg rounded-circle" 
   type="button" data-toggle="collapse" data-target="#navbarNav" 
   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
-  </button>
+  </button> 
   
-    <!----------------------- Navbar buttons------------------->
+  
+  
+    <!--.................Navbar buttons......................-->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen/Radio------------>
+      
+      <!--.....................About..................-->
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                About</span>
+            </a></li>
+        
+    <!--............. Listen/Radio....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
@@ -58,7 +70,7 @@
                 Listen</span>
             </a></li> 
       
-      <!----------- Look/Tv------------>
+      <!--..................Look/Tv.....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
@@ -67,7 +79,7 @@
             </a></li> 
       
       
-      <!----------- Book------------>
+      <!--..............Book............................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
@@ -75,23 +87,13 @@
                 Book</span>
             </a></li>
       
-      
-      <!----------- About------------>
-        <li class="nav-item">
-            <a class="btn btn-cream btn-block active" href="/about.html"
-            role="button"><span>
-                <i class="fas fa-envelope-open"></i>
-                About</span>
-            </a></li>
-      
-      <!----------- Contact------------>
+      <!--...............Contact.......................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
-                <i class="fas fa-microphone-alt"></i>
+                <i class="fas fa-envelope-open"></i>
                 Contact</span>
             </a></li>
-        
       
     </ul>
     </div>
@@ -102,62 +104,62 @@
       
       
 
-<!--x-------------------------section------------------------------>
+<!--.....................section..............................-->
       
 <section>   
 
 <div class="container-flex">
     <div class="row">
-<!--x-------------------------- About Left side------------------------------>
+<!--.....................About Left side......................-->
     <div class="col-xs-11 col-sm-7 offset-1 mr-auto mb-2">
         
-<!--x-------------------Artist Micky Dolenz------------->  
+<!--.....................Artist Micky Dolenz.....................-->  
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
           <img class="align-self-center mr-3 artistimage" src="/images/mdfix2.png" alt="Micky Dolenz"> 
           <div class="media-body">
-            <h5 class="mt-0 artistname">Micky Dolenz</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Micky Dolenz</h5></a>
             <p class="m-2 p-2 artistp">Micky sings and playes the drums.</p>
         </div>
         </div>
         </div>
-<!--x-------------------Artist Michael Nesmith ------------->   
+<!--.....................Artist Michael Nesmith.....................-->   
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
           <img class="align-self-center mr-3 artistimage" src="/images/mnfix2.png" alt="Michael Nesmith"> 
           <div class="media-body">
-            <h5 class="mt-0 artistname">Michael Nesmith</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Michael Nesmith</h5></a>
             <p class="m-2 p-2 artistp">Michael sings and playes the gitarr.</p>
         </div>
         </div>
         </div>
-<!--x-------------------Artist Davy Jones------------->
+<!--.....................Artist Davy Jones.....................-->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
           <img class="align-self-center mr-3 artistimage" src="/images/djfix2.png" alt="Davy Jones"> 
           <div class="media-body">
-            <h5 class="mt-0 artistname">Davy Jones</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Davy Jones</h5></a>
             <p class="m-2 p-2 artistp">Davy sang and played the gitarr, tamb and maracas. He passed away 2012.</p>
         </div>
         </div>
         </div>
-<!--x---------------------Artist Peter Tork------------->
+<!--.....................Artist Peter Tork.....................-->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
           <img class="align-self-center mr-3 artistimage" src="/images/ptfix2.png" alt="Peter Tork"> 
           <div class="media-body">
-            <h5 class="mt-0 artistname">Peter Tork</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Peter Tork</h5></a>
             <p class="m-2 p-2 artistp">Peter sang and played the bass, banjo and keyboard. He passed away 2019.</p>
         </div>
         </div>
         </div>
         
-<!--x-------------------BAND HISTORY XS-LG------------->
+<!--.....................BAND HISTORY XS-LG.....................-->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2 d-xl-none">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
           <img class="align-self-center mx-2 artistimage" src="/images/band.jpg" alt="The Band"> 
           <div class="media-body">
-            <h5 class="mt-0 artistname">Band History</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Band History</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">The band was founded 1966....</h6>
             <a class="align-self-center cardikon2" href= "/about.html" target="_blank">
             <i class="fa fa-comments"></i></a>
@@ -165,13 +167,13 @@
         </div>
         </div>
         
-<!--x-------------------Archive------------->
+<!--.....................Archive.....................-->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
             <a class="align-self-center mr-3 cardikon3" href= "/about.html" target="_blank">
             <i class="fa fa fa-archive"></i></a>
           <div class="media-body">
-            <h5 class="mt-0 artistname">News Archive</h5>
+            <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">News Archive</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">..for daydream believers...</h6>
 
         </div>
@@ -183,11 +185,11 @@
 
 
 
-<!--x-------------------------About Right side------------------------------>
+<!--..............................About Right side..............................-->
         <div class="col-xs-12 col-xl-4 auto">
             
 
-<!--x------------------- Card Band history------------->               
+<!--..............................Card Band history..............................-->               
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
@@ -202,13 +204,13 @@
                </div>
             </div>
             
- <!--x-------------------Space------------->
+ <!--..............................Space..............................-->
             <div class="row indexbetween">
                 <div class="col-xl-12"></div>
             </div>
             
             
-<!--x-------------------Card Book the band------------->
+<!--..............................Card Book the band..............................-->
              <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
@@ -217,18 +219,17 @@
             <h6 class="card-subtitle mb-2 text-muted">Are you a believer!</h6>
             <p class="card-text newsparagraph">We play at partys, weddings and funerals
             and we are still going strong! Get Monkeefied -  Book the Monkees today!</p>
-                    <a href="book.html" class="card-link carlinkblue">Contact</a>
                   </div>     
                </div>
             </div>
             
             
-<!--x-------------------Space------------->
+<!--.............................Space.............................-->
             <div class="row indexbetween">
                 <div class="col-xl-12"></div>
             </div>
  
-<!--x-------------------Card Webshop------------->  
+<!--.............................Card Webshop..............................-->  
 
             
             <div class="row d-none d-xl-block">
@@ -253,19 +254,19 @@
      </section>
      
      
-      <!-------------------------------footer-------------------------------->
+      <!--..............................footer..............................-->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
             
-       <!-------------lOGO--------------->
+       <!--........................lOGO........................-->
               
-              <div class="col-4 col-md-4 vertical">
+              <div class="col-4 col-md-4 vertical d-none d-sm-block">
                 <a href="contact.html">
                 <img class="footerlogo" src="/images/monkeeslogosblvit.JPG" alt="logo"></a>
             </div>
         
-        <!-------------YOUTUBE--------------->
+        <!--........................YOUTUBE........................-->
             <div class="col-8 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
@@ -273,19 +274,27 @@
                     role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
-        <!-------------TWITTER--------------->
+        <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://twitter.com/monkeesofficial"
                     role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
-        <!-------------FACEBOOK---------------> 
+        <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
                     role="button">
                     <span><i class="fab fa-facebook"></i></span>
+                </a>
+        
+                <!--........................WEBSHOP........................--> 
+
+                <a class="btn-home active btn btn-lg rounded-circle" 
+                    href="https://www.facebook.com/TheMonkees"
+                    role="button">
+                    <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 
             </div>
@@ -296,6 +305,7 @@
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+    
+</body>
     
 </html>

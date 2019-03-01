@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -16,13 +16,13 @@
     <body>
         
      <header>
-    <!---------------------------------NAVBAR------------------------>
+    <!--................NAVBAR..........................-->
 
       <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
             
  
   
-    <!----------- Home button ---------->
+    <!--............ Home button.....................-->
 
             <a class="btn-home active btn btn-lg rounded-circle" 
             href="/index.html"
@@ -31,16 +31,16 @@
                 </span>
             </a>
             
-            <div class="d-none d-sm-block" style="text-align:center; color:#d9a300;">
-            <h1>THE MONKEES </h1>
+            <div class="d-none d-sm-block" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html" class="indexh1left"><h1>THE MONKEES </h1></a>
             </div>
     
           
-<!----------------------- Nested Navbar---------------------------------->
+<!--.......................Nested Navbar..........................-->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
   
   
-  <!----------------------- Navbar Collapse Button--------------->
+  <!--...................Navbar Collapse Button......................-->
   <button class="navbar-toggler btn-home btn-lg rounded-circle" 
   type="button" data-toggle="collapse" data-target="#navbarNav" 
   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +49,20 @@
   
   
   
-    <!----------------------- Navbar buttons------------------->
+    <!--.................Navbar buttons......................-->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen/Radio------------>
+      
+      <!--.....................About..................-->
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                About</span>
+            </a></li>
+        
+    <!--............. Listen/Radio....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
@@ -61,7 +70,7 @@
                 Listen</span>
             </a></li> 
       
-      <!----------- Look/Tv------------>
+      <!--..................Look/Tv.....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
@@ -70,7 +79,7 @@
             </a></li> 
       
       
-      <!----------- Book------------>
+      <!--..............Book............................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
@@ -78,20 +87,11 @@
                 Book</span>
             </a></li>
       
-      
-      <!----------- About------------>
-        <li class="nav-item">
-            <a class="btn btn-cream btn-block active" href="/about.html"
-            role="button"><span>
-                <i class="fas fa-envelope-open"></i>
-                About</span>
-            </a></li>
-      
-      <!----------- Contact------------>
+      <!--...............Contact.......................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
-                <i class="fas fa-microphone-alt"></i>
+                <i class="fas fa-envelope-open"></i>
                 Contact</span>
             </a></li>
       
@@ -102,20 +102,18 @@
     </header>
      
       
-      
-
-<!--x-------------------------section------------------------------>
+<!--........................section.........................-->
       
 <section>   
 
 <div class="container-flex">
     <div class="row">
-<!--x-------------------------Index Left side------------------------------>
+<!--........................Index Left side........................-->
         <div class="col-xs-12 col-sm-7 mr-auto">
             <div class="row">
                 <div class="col-xs-12 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center">
                     <a href="/radio.html"  style="text-decoration:none"><h1 class="indexh1left">listen</h1>
-                    <img src="/images/radiotrans.png" class="img-fluid indexhoverleft" alt="radio">
+                    <img src="/images/radiotrans.png" class="img-fluid indexhoverlefttv" alt="radio">
                     </a></div>
                     
                 <div class="col-xs-12 col-lg-6 col-xl-4  order-1 order-lg-2 justify-content-center">
@@ -140,7 +138,7 @@
             
         </div>
 
-<!--x-------------------------Index Right side------------------------------>
+<!--........................Index Right side........................-->
         <div class="col-xs-12 col-md-4 auto">
             
             <div class="row d-none d-md-block">
@@ -198,19 +196,19 @@
  </section>
      
      
-<!--x-----------------------------footer-------------------------------->
+<!--........................footer........................-->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
             
-       <!--x-----------lOGO--------------->
+       <!--........................lOGO........................-->
               
-              <div class="col-4 col-md-4 vertical">
+              <div class="col-4 col-md-4 vertical d-none d-sm-block">
                 <a href="contact.html">
                 <img class="footerlogo" src="/images/monkeeslogosblvit.JPG" alt="logo"></a>
             </div>
         
-        <!--x-----------YOUTUBE--------------->
+        <!--........................YOUTUBE........................-->
             <div class="col-8 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
@@ -218,19 +216,27 @@
                     role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
-        <!--x-----------TWITTER--------------->
+        <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://twitter.com/monkeesofficial"
                     role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
-        <!--x-----------FACEBOOK---------------> 
+        <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
                     role="button">
                     <span><i class="fab fa-facebook"></i></span>
+                </a>
+        
+                <!--........................WEBSHOP........................--> 
+
+                <a class="btn-home active btn btn-lg rounded-circle d-none d-sm-block" 
+                    href="https://www.facebook.com/TheMonkees"
+                    role="button">
+                    <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 
             </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -9,20 +9,20 @@
         <link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="viewport" content="width-device-width, initial-scale-1">
        
-       <title>book</title>
+       <title>Index</title>
     </head>
     
 
     <body>
         
      <header>
-    <!---------------------------------NAVBAR------------------------>
+    <!--................NAVBAR..........................-->
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler" style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
             
  
   
-    <!----------- Home button ---------->
+    <!--............ Home button.....................-->
 
             <a class="btn-home active btn btn-lg rounded-circle" 
             href="/index.html"
@@ -30,27 +30,39 @@
                 <i class="fas fa-home"></i>
                 </span>
             </a>
-
-            <div class="d-none d-sm-block" style="text-align:center; color:#d9a300;">
-            <h1>THE MONKEES </h1>
+            
+            <div class="d-none d-sm-block" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html" class="indexh1left"><h1>THE MONKEES </h1></a>
             </div>
-
-<!----------------------- Nested Navbar---------------------------------->
+    
+          
+<!--.......................Nested Navbar..........................-->
 <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
   
   
-  <!----------------------- Navbar Collapse Button--------------->
+  <!--...................Navbar Collapse Button......................-->
   <button class="navbar-toggler btn-home btn-lg rounded-circle" 
   type="button" data-toggle="collapse" data-target="#navbarNav" 
   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-bars"></i></span>
-  </button>
+  </button> 
   
-    <!----------------------- Navbar buttons------------------->
+  
+  
+    <!--.................Navbar buttons......................-->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         
-    <!----------- Listen/Radio------------>
+      
+      <!--.....................About..................-->
+        <li class="nav-item">
+            <a class="btn btn-cream btn-block active" href="/about.html"
+            role="button"><span>
+                <i class="fas fa-microphone-alt"></i>
+                About</span>
+            </a></li>
+        
+    <!--............. Listen/Radio....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
@@ -58,7 +70,7 @@
                 Listen</span>
             </a></li> 
       
-      <!----------- Look/Tv------------>
+      <!--..................Look/Tv.....................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
@@ -67,7 +79,7 @@
             </a></li> 
       
       
-      <!----------- Book------------>
+      <!--..............Book............................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
@@ -75,42 +87,31 @@
                 Book</span>
             </a></li>
       
-      
-      <!----------- About------------>
-        <li class="nav-item">
-            <a class="btn btn-cream btn-block active" href="/about.html"
-            role="button"><span>
-                <i class="fas fa-envelope-open"></i>
-                About</span>
-            </a></li>
-      
-      <!----------- Contact------------>
+      <!--...............Contact.......................-->
         <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
-                <i class="fas fa-microphone-alt"></i>
+                <i class="fas fa-envelope-open"></i>
                 Contact</span>
             </a></li>
-        
       
     </ul>
     </div>
 </nav>
 </nav>
     </header>
-     
       
-<!--x-------------------------section------------------------------>
+<!--.......................section.......................-->
       
 <section>   
 
 <div class="container-flex">
     <div class="row">
         
-<!--------------------------- Contact Left side------------------------------>
+<!--.......................Contact Left side.......................-->
     <div class="col-xs-11 col-sm-7 offset-1 mr-auto mb-2">
         
-<!--x-------------------Booking Contact information------------->
+<!--.......................Booking Contact information.......................-->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
             <a class="align-self-center mr-3 cardikon3" href= "/about.html" target="_blank">
@@ -125,17 +126,17 @@
         </div>
         </div>
         
- <!--x------------------ Modal------------------------>
+ <!--....................... Modal.......................-->
 <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2 text-center">
-    <!--x------------------ Button to Open the Modal ------------------------>
+    <!--.......................Button to Open the Modal.......................-->
 <button type="button" class="btn btn-cream btn-lg" data-toggle="modal" data-target="#myModal">
-  <i class="fas fa-guitar"></i></i>Booking request
+  <i class="fas fa-guitar"></i>Booking request
 </button>
 
-    <!--x-------------------  Inside the Modal -------------------------->
+    <!--.......................Inside the Modal.......................-->
 <div class="modal fade" id="myModal">
   <div class="modal-dialog">
-    <div class="modal-content" style="border-7px solid #5b9bd5;">
+    <div class="modal-content" style="background-color:#fdffe5;">
 
       <!-- Modal Header -->
       <div class="modal-header">
@@ -147,8 +148,8 @@
       <div class="modal-body">
  
         <div class="form-group">
-            <label for="input">Whats the occation?</label>
-            <input type="text" placeholder="party, wedding, funeral, festival, etc." class="form-control" id="email">
+            <label for="occation">Whats the occation?</label>
+            <input type="text" placeholder="party, wedding, funeral, festival, etc." class="form-control" id="occation">
         </div> 
          
              <form action="/action_page.php">
@@ -156,14 +157,14 @@
                 </form>
 
         <div class="form-group">
-            <label for="input">Name:</label>
-            <input type="text" class="form-control" id="email">
+            <label for="name">Name </label>
+            <input type="text" class="form-control" id="name">
             
-            <label for="ainout">Address:</label>
-            <input type="address" class="form-control" id="email">
+            <label for="addr">Address:</label>
+            <input type="text" class="form-control" id="addr">
             
-            <label for="phone">Phone:</label>
-            <input type="phone" class="form-control" id="email">
+            <label for="phon">Phone:</label>
+            <input type="number" class="form-control" id="phon">
             
             <label for="email">Email address:</label>
             <input type="email" class="form-control" id="email">
@@ -175,7 +176,7 @@
       <!-- Modal footer -->
           <div class="modal-footer" style="background-color:#5b9bd5">
               <h4 class="modal-title indexh1left">Thankyou!</h4>
-                <button type="button submit" class="btn btn-cream" data-dismiss="modal">Submit</button>
+                <button type="button" class="btn btn-cream" data-dismiss="modal">Submit</button>
           </div>
         </div>
     </div>
@@ -184,10 +185,10 @@
     
    </div>
 
-<!--x-------------------------Book Right side------------------------------>
+<!--.......................Book Right side.......................-->
         <div class="col-xs-12 col-xl-4 auto">
             
-<!--x------------------- Card Web shop------------->
+<!--...............Card Web shop.....................-->
             <div class="row d-none d-xl-block">
                 <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
@@ -206,7 +207,7 @@
                 <div class="col-xl-12"></div>
             </div>
             
-<!--x------------------- Card Band history------------->               
+<!--...............Card Band history.....................-->               
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
@@ -222,7 +223,7 @@
             
             
             
-<!--x------------------- Card Get social------------->                  
+<!--......................Card Get social.....................-->                  
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
@@ -254,19 +255,19 @@
      </section>
      
      
-<!--x-----------------------------footer-------------------------------->
+<!--.......................footer.......................-->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
             
-       <!-------------lOGO--------------->
+       <!--........................lOGO........................-->
               
-              <div class="col-4 col-md-4 vertical">
+              <div class="col-4 col-md-4 vertical d-none d-sm-block">
                 <a href="contact.html">
                 <img class="footerlogo" src="/images/monkeeslogosblvit.JPG" alt="logo"></a>
             </div>
         
-        <!-------------YOUTUBE--------------->
+        <!--........................YOUTUBE........................-->
             <div class="col-8 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
@@ -274,19 +275,27 @@
                     role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
-        <!-------------TWITTER--------------->
+        <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://twitter.com/monkeesofficial"
                     role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
-        <!-------------FACEBOOK---------------> 
+        <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
                     role="button">
                     <span><i class="fab fa-facebook"></i></span>
+                </a>
+        
+                <!--........................WEBSHOP........................--> 
+
+                <a class="btn-home active btn btn-lg rounded-circle" 
+                    href="https://www.facebook.com/TheMonkees"
+                    role="button">
+                    <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 
             </div>
