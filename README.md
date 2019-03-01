@@ -1,5 +1,8 @@
 # First Milestone Project 
-# Cpde Institute
+Code Institute
+https://ringarochkryss.github.io/milestone1/
+
+
 
 Website for a 60:s band 
 Bootstrap 4 html5 & Css
