@@ -87,10 +87,13 @@ body {
     text-transform: uppercase;
     text-align: center;
     color:#222050;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
 .indexh1left:hover{
-    text-decoration: none;
+    color:#5b9bd5;
 }
 
 .indexh1leftdrum{
@@ -102,8 +105,15 @@ body {
     transform:translateY(50%);
     top:10px;
     color: #222050;
+    transition: 1s ease-in-out;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
+.indexh1leftdrum:hover{
+    color:#5b9bd5;
+}
 /*@media screen and (min-widht:600px){
 .indexdrum{
 }
@@ -112,12 +122,23 @@ body {
 /*----------------Hovering Index left side images----------------*/
 
 .indexhoverleft:hover{
+    border:3px dotted #5b9bd5;
+    padding:4px;
     background-color: rgb(91,155,213,0.3);
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
-.indexh1leftdrum:hover{
-    text-decoration: none;
+.indexhoverleftdrum:hover{
+    border:5px dotted #fdffe5;
+    padding:4px;
+    background-color: rgb(253,255,229,0.3);
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
+
 
 
 .indexhoverlefttv:hover {

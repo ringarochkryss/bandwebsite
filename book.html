@@ -100,7 +100,7 @@
     </header>
      
       
-<!---------------------------section------------------------------>
+<!--x-------------------------section------------------------------>
       
 <section>   
 
@@ -110,7 +110,7 @@
 <!--------------------------- Contact Left side------------------------------>
     <div class="col-xs-11 col-sm-7 offset-1 mr-auto mb-2">
         
-<!---------------------Booking Contact information------------->
+<!--x-------------------Booking Contact information------------->
         <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
         <div class="media" style="background-color: rgb(253,255,229,0.3);">
             <a class="align-self-center mr-3 cardikon3" href= "/about.html" target="_blank">
@@ -125,18 +125,73 @@
         </div>
         </div>
         
+ <!--x------------------ Modal------------------------>
+<div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2 text-center">
+    <!--x------------------ Button to Open the Modal ------------------------>
+<button type="button" class="btn btn-cream btn-lg" data-toggle="modal" data-target="#myModal">
+  <i class="fas fa-guitar"></i></i>Booking request
+</button>
+
+    <!--x-------------------  Inside the Modal -------------------------->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content" style="border-7px solid #5b9bd5;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title indexh1left">Booking Request</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+ 
+        <div class="form-group">
+            <label for="input">Whats the occation?</label>
+            <input type="text" placeholder="party, wedding, funeral, festival, etc." class="form-control" id="email">
+        </div> 
+         
+             <form action="/action_page.php">
+              Date: <input type="date" name="bday">
+                </form>
+
+        <div class="form-group">
+            <label for="input">Name:</label>
+            <input type="text" class="form-control" id="email">
+            
+            <label for="ainout">Address:</label>
+            <input type="address" class="form-control" id="email">
+            
+            <label for="phone">Phone:</label>
+            <input type="phone" class="form-control" id="email">
+            
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+ 
+ 
+      </div>
+
+      <!-- Modal footer -->
+          <div class="modal-footer" style="background-color:#5b9bd5">
+              <h4 class="modal-title indexh1left">Thankyou!</h4>
+                <button type="button submit" class="btn btn-cream" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
     </div>
-        
+  </div>
+</div>
+    
+   </div>
 
-
-<!---------------------------Book Right side------------------------------>
+<!--x-------------------------Book Right side------------------------------>
         <div class="col-xs-12 col-xl-4 auto">
             
-<!--------------------- Card Web shop------------->
+<!--x------------------- Card Web shop------------->
             <div class="row d-none d-xl-block">
                 <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                <a href="/index.html" target="_blank">
+                <a href="/index.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">Fan shop</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
             <div class="cardikon">
@@ -151,11 +206,11 @@
                 <div class="col-xl-12"></div>
             </div>
             
-<!--------------------- Card Band history------------->               
+<!--x------------------- Card Band history------------->               
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
-                <a href="/index.html" target="_blank">
+                <a href="/index.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">Band history</h5></a>
             <div class="cardikon">
                     <a href="/about.html" target="_blank" class="cardikon">
@@ -167,11 +222,11 @@
             
             
             
-<!--------------------- Card Get social------------->                  
+<!--x------------------- Card Get social------------->                  
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
-                <a href="/index.html" target="_blank">
+                <a href="/index.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">get social!</h5></a>
                     <h6 class="card-subtitle mb-2 text-muted">Join the community!</h6>
             <div class="cardikon">
@@ -196,18 +251,10 @@
 </div>
     
 
-
-
-    
-     
-     
-     
-     
-     
      </section>
      
      
-      <!-------------------------------footer-------------------------------->
+<!--x-----------------------------footer-------------------------------->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">

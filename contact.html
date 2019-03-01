@@ -101,14 +101,14 @@
      
 
 
-          <!---------------------------section------------------------------>
+<!--x-------------------------section------------------------------>
       
 <section>   
 
 <div class="container-flex">
     <div class="row">
         
-        <!--------------------------- Contact Left side------------------------------>
+<!--x------------------------- Contact Left side------------------------------>
     <div class="col-xs-11 col-sm-7 offset-1 mr-auto mb-2">
         
                 <!---------------------Contact------------->
@@ -126,17 +126,63 @@
         </div>
         </div>
         
+<!--x------------------ Modal ------------------------>
+<div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2 text-center">
+    
+    <!--x------------------ Button to Open the Modal ------------------------>
+<button type="button" class="btn btn-cream btn-lg" data-toggle="modal" data-target="#myModal">
+  <i class="fas fa-pencil-alt"></i></i>Contact us!
+</button>
+
+    <!--x------------------- Inside the Modal -------------------------->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content" style="border-7px solid #5b9bd5;">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title indexh1left">Contact Us</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+ 
+        <div class="form-group">
+            <label for="input">Message</label>
+            <input type="text" placeholder="...your message..." class="form-control" id="email">
+        </div> 
+  
+        <div class="form-group">
+            <label for="input">Name:</label>
+            <input type="text" class="form-control" id="email">
+            
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+ 
+ 
+      </div>
+
+      <!-- Modal footer -->
+          <div class="modal-footer" style="background-color:#5b9bd5">
+              <h4 class="modal-title indexh1left">Thankyou!</h4>
+                <button type="button submit" class="btn btn-cream" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
     </div>
-        
+  </div>
+</div>
+    
+   </div>
 
-
-<!---------------------------Contact Right side------------------------------>
+<!--x-------------------------Contact Right side------------------------------>
         <div class="col-xs-12 col-xl-4 auto">
             
             <div class="row d-none d-xl-block">
                 <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                <a href="/index.html" target="_blank">
+                <a href="/index.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">Fan shop</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
             <div class="cardikon">
@@ -154,7 +200,7 @@
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
-                <a href="/index.html" target="_blank">
+                <a href="/index.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">get social!</h5></a>
                     <h6 class="card-subtitle mb-2 text-muted">Join the community!</h6>
             <div class="cardikon">
@@ -175,7 +221,7 @@
             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                <a href="/book.html" target="_blank">
+                <a href="/book.html" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">BOOK THE BAND!</h5></a>
             <h6 class="card-subtitle mb-2 text-muted">Are you a believer!</h6>
             <p class="card-text newsparagraph">We play at partys, weddings and funerals
@@ -193,7 +239,8 @@
      </section>
      
      
-      <!-------------------------------footer-------------------------------->
+     
+<!--x-----------------------------footer-------------------------------->
      
       <footer class="container-fluid footbg fixed-bottom">
         <div  id="footer-details" class="row align-items-center">
