@@ -1,9 +1,16 @@
+/*-----------------Notes----------*/
+
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Spicy Rice', cursive;
 f*/
 
 
-/*-----------------bakgrund----------*/
+/*@media screen and (min-widht:600px){
+.indexdrum{
+}*/
+
+
+/*-----------------background----------*/
 
 body {
     margin-top: 150px;
@@ -30,7 +37,6 @@ body {
 }
 
 .btn-cream{
-    border-top: 30;
     background-color: #f2Bb0c;
     border-bottom-width: thick;
     border-color: #fdffe5;
@@ -45,7 +51,6 @@ body {
 }
 
 .btn-home {
-    border-top: 30;
     border-width: thick;
     border-color: #fdffe5;
     color:#fdffe5;
@@ -81,16 +86,20 @@ body {
 
 /*-------Text Index left side----------*/
 
+
 .indexh1left{
     font-family: 'Spicy Rice', cursive;
     font-size: xx-large;
     text-transform: uppercase;
     text-align: center;
     color:#222050;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
 .indexh1left:hover{
-    text-decoration: none;
+    color:#5b9bd5;
 }
 
 .indexh1leftdrum{
@@ -102,22 +111,34 @@ body {
     transform:translateY(50%);
     top:10px;
     color: #222050;
-}
-
-/*@media screen and (min-widht:600px){
-.indexdrum{
-}
-}*/
-
-/*----------------Hovering Index left side images----------------*/
-
-.indexhoverleft:hover{
-    background-color: rgb(91,155,213,0.3);
+    transition: 1s ease-in-out;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
 
 .indexh1leftdrum:hover{
-    text-decoration: none;
+    color:#5b9bd5;
 }
+
+
+/*----------------Hovering Images Index left side images----------------*/
+
+.indexhoverleft:hover{
+    background-color: rgb(91,155,213,0.3);
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+.indexhoverleftdrum:hover{
+    padding:7px;
+    background-color: transparent;
+    -webkit-transition:1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
 
 
 .indexhoverlefttv:hover {
@@ -192,7 +213,6 @@ body {
 
 
 .cardikon{
- border-top: 30;
     border-bottom-width: thick;
     border-color: #fdffe5;
     color:#5b9bd5;
@@ -232,13 +252,16 @@ body {
  font-family: 'Spicy Rice', cursive; 
 }
 
+.artistname:hover{
+ color:#5b9bd5;
+}
+
 .artistp{
      font-family: 'Raleway', sans-serif; 
 }
 
 
 .cardikon2{
- border-top: 10;
     border-bottom-width: thick;
     border-color:#fdffe5;
     color:#222040;
@@ -253,7 +276,6 @@ body {
 }
 
 .cardikon3{
- border-top: 30;
     border-bottom-width: thick;
     border-color:#fdffe5;
     color:#222040;
@@ -268,7 +290,7 @@ body {
 }
 
 
-/*--------------------------Section --Contact-------------------------*/
+/*--------------------------Section Contact-------------------------*/
 
 
 
