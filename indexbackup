@@ -6,9 +6,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
        
        <title>Index</title>
     </head>
@@ -19,7 +18,7 @@
      <header>
     <!--................NAVBAR..........................-->
 
-      <nav class="navbar navbar-expand-xl fixed-top navbar-light navbar-toggler justify-content-between"  style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
             
  
   
@@ -31,18 +30,14 @@
                 <i class="fas fa-home"></i>
                 </span>
             </a>
-    <!--.......................Nav Title XS..........................-->        
-            <div class="d-sm-none navtitle" style="text-align:center;">
-            <a style="text-decoration:none;" href="/index.html"><h3 class="navwelcome" style="font-size:20px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE</h3><h1 class="navwelcome" style="font-size:33px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">MONKEES</h1></a>
-            </div>
-    <!--.......................Nav Title SM to XL..........................-->       
-            <div class="d-none d-sm-block" style="text-align:center;">
-            <a style="text-decoration:none;" href="/index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
+            
+            <div class="d-none d-sm-block ml-3" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html" class="Newsheader"><h1>THE MONKEES </h1></a>
             </div>
     
           
 <!--.......................Nested Navbar..........................-->
-<nav class="navbar navbar-expand-xl navbar-light"  style="background-color: #5b9bd5;">
+<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
   
   
   <!--...................Navbar Collapse Button......................-->
@@ -56,11 +51,11 @@
   
     <!--.................Navbar buttons......................-->
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="nav justify-content-end">
         
       
       <!--.....................About..................-->
-        <li class="nav-item ml-2">
+        <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/about.html"
             role="button"><span>
                 <i class="fas fa-microphone-alt"></i>
@@ -68,7 +63,7 @@
             </a></li>
         
     <!--............. Listen/Radio....................-->
-        <li class="nav-item ml-2">
+        <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
                 <i class="fas fa-headphones-alt"></i>
@@ -76,7 +71,7 @@
             </a></li> 
       
       <!--..................Look/Tv.....................-->
-        <li class="nav-item ml-2">
+        <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
                 <i class="fas fa-video"></i>
@@ -85,7 +80,7 @@
       
       
       <!--..............Book............................-->
-        <li class="nav-item ml-2">
+        <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
                 <i class="fas fa-phone"></i>
@@ -93,7 +88,7 @@
             </a></li>
       
       <!--...............Contact.......................-->
-        <li class="nav-item ml-2">
+        <li class="nav-item">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
                 <i class="fas fa-envelope-open"></i>
@@ -107,61 +102,71 @@
     </header>
      
       
-      
-
-<!--........................section........................-->
+<!--........................section.........................-->
       
 <section>   
 
 <div class="container-flex">
-    <div class="row">
-<!--........................Tv Left side........................-->
-
-
-
-   <!--........................Tv........................-->     
-
-        <div class="col-xs-12 col-xl-8">
-            <div class="laptop-wrapper">
-                <iframe width="900" height="900" controls
-                  source src="/movies/TheMonkees.mp4" type="video/mp4" frameborder="0" allowfullscreen></iframe>
+    <div class="row display-table">
+<!--........................Index Left side........................-->
+        <div class="col-xs-12 col-sm-7 mr-auto verticalify display-cell">
+            <div class="row">
+                <div class="col-xs-12 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center verticalify display-cell">
+                    <a href="/radio.html"  style="text-decoration:none"><h1 class="indexh1left">listen</h1>
+                    <img src="/images/radiotrans.png" class="img-fluid indexhoverlefttv" alt="radio">
+                    </a></div>
+                    
+                <div class="col-xs-12 col-lg-6 col-xl-4  order-1 order-lg-2 justify-content-center verticalify display-cell">
+                   <a href="/tv.html" style="text-decoration:none"><h1 class="indexh1left">Look</h1>
+                    <img src="/images/tvtrans.png" class="img-fluid indexhoverlefttv" alt="tv">
+                    </a></div>
+                    
+                <div class="row col-xl-4 justify-content-center indexdrum d-none d-xl-block ml-2 verticalify display-cell">
+                    <a href="/about.html" style="text-decoration:none">
+                        <div class="indexh1leftdrum">about</div>
+                    <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleftdrum" alt="bassdrum">
+                    </a>
+            </div>
+            </div>
+            
+            <div class="row col-xs-12 col-xl-4 justify-content-center indexdrum d-xl-none mb-10 verticalify display-cell">
+                <a href="/about.html" style="text-decoration:none">
+                <div class="indexh1leftdrum">about</div>
+                    <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleftdrum" alt="bassdrum">
+                    </a>
+            </div>
+            
         </div>
-     </div>
-        
 
-
-<!--........................Tv Right side........................-->
-        <div class="col-xs-12 col-xl-4 auto d-flex flex-wrap flex-xl-column justify-content-center align-items-center">
-
-<!--..............................Card More movies..............................-->            
-            <div class="row col-xs-6 m-3 justify-content-center align-items-center">
+<!--........................Index Right side........................-->
+        <div class="col-xs-12 col-md-4 auto">
+<!--..............................In Memoriam..............................-->            
+            <div class="row d-none d-md-block">
                 <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
-                <a href="http://www.youtube.com/themonkees" target="_blank" style="text-decoration:none">
-                    <h5 class="card-title Newsheader cardheadbook">more movies!</h5></a>
-            <h6 class="card-subtitle mb-2 text-muted">Subscribe to our channel!</h6>
-            <div class="cardikon">
-                    <a href="http://www.youtube.com/themonkees" target="_blank" class="cardikon">
-                        <i class="fab fa-youtube"></i></a></div>
-   
+                    <h5 class="card-title Newsheader">in memoriam</h5>
+            <h6 class="card-subtitle mb-2 text-muted">...everlasting memory.</h6>
+            <p class="card-text newsparagraph">The lost of Peter Tork have shaken us all, our thoughts goes to his family. </p>
+                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">In Memoriam</a>
+                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">Press release</a>
                    </div>     
                </div>
             </div>
-
-
-<!--......................Card Get social.....................-->                  
-            <div class="row col-xs-6 m-3 justify-content-center align-items-center">
+            
+            <div class="row indexbetween">
+                <div class="col-xs-12"></div>
+            </div>
+<!--..............................Card Coming up!..............................-->                    
+            <div class="row d-none d-md-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
-                    <div class="card-body">
-                <a href="https://www.facebook.com/TheMonkees" target="_blank" style="text-decoration:none">
-                    <h5 class="card-title Newsheader cardheadbook">get social!</h5></a>
-                    <h6 class="card-subtitle mb-2 text-muted">Join the community!</h6>
-            <div class="cardikon">
-                    <a href="https://www.facebook.com/TheMonkees" target="_blank" class="cardikon">
-                        <i class="fab fa-facebook-square"></i></a>
-                    <a href="https://twitter.com/TheMonkees" target="_blank" class="cardikon">
-                        <i class="fab fa-twitter-square"></i></a>
-                        </div>
+                  <div class="card-body">
+                    <h5 class="card-title Newsheader">COMING UP!</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Central Park June 6:th</h6>
+            <p class="card-text newsparagraph">We are happy to announce 
+            the news that we will act center band during the big Sweden-party in central park N.Y.
+            next weekend. See you there!!!</p>
+                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">Calendar</a>
+                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">Schedule</a>
                   </div>     
                </div>
             </div>
@@ -172,7 +177,7 @@
             
             
 <!--..............................Card Book the band..............................-->
-             <div class="row col-xs-6 m-3 justify-content-center align-items-center">
+             <div class="row d-none d-xl-block">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
                 <a href="/book.html" target="_blank" style="text-decoration:none">
@@ -183,19 +188,17 @@
                   </div>     
                </div>
             </div>
-
         </div> 
     </div>
 </div>
     
-
-     </section>
+ </section>
      
      
 <!--........................footer........................-->
      
-      <footer class="container-fluid fixed-bottom">
-        <div  id="footer-details" class="row align-items-center" style="background-color:#5b9bd5;">
+      <footer class="container-fluid footbg fixed-bottom">
+        <div  id="footer-details" class="row align-items-center">
             
        <!--........................lOGO........................-->
               
@@ -205,33 +208,33 @@
             </div>
         
         <!--........................YOUTUBE........................-->
-            <div class="col-12 col-md-4 d-flex justify-content-between">
+            <div class="col-8 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="http://www.youtube.com/themonkees"
-                    target= "blank" role="button">
+                    role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
         <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://twitter.com/TheMonkees"
-                    target= "blank" role="button">
+                    href="https://twitter.com/monkeesofficial"
+                    role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
         <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
-                    target= "blank" role="button">
+                    role="button">
                     <span><i class="fab fa-facebook"></i></span>
                 </a>
         
                 <!--........................WEBSHOP........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://monkeesstore.warnermusic.com/music.html"
-                    target= "blank" role="button">
+                    href="https://www.facebook.com/TheMonkees"
+                    role="button">
                     <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 
@@ -240,7 +243,7 @@
       </footer>
   
        
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>

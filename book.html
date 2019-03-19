@@ -7,7 +7,8 @@
         <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        
        <title>Index</title>
     </head>
@@ -18,7 +19,7 @@
      <header>
     <!--................NAVBAR..........................-->
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-xl fixed-top navbar-light navbar-toggler justify-content-between"  style="background-color: #5b9bd5;">
             
  
   
@@ -30,14 +31,18 @@
                 <i class="fas fa-home"></i>
                 </span>
             </a>
-            
+    <!--.......................Nav Title XS..........................-->        
+            <div class="d-sm-none navtitle" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html"><h3 class="navwelcome" style="font-size:20px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE</h3><h1 class="navwelcome" style="font-size:33px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">MONKEES</h1></a>
+            </div>
+    <!--.......................Nav Title SM to XL..........................-->       
             <div class="d-none d-sm-block" style="text-align:center;">
-            <a style="text-decoration:none;" href="/index.html" class="Newsheader"><h1>THE MONKEES </h1></a>
+            <a style="text-decoration:none;" href="/index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
             </div>
     
           
 <!--.......................Nested Navbar..........................-->
-<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
+<nav class="navbar navbar-expand-xl navbar-light"  style="background-color: #5b9bd5;">
   
   
   <!--...................Navbar Collapse Button......................-->
@@ -55,7 +60,7 @@
         
       
       <!--.....................About..................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/about.html"
             role="button"><span>
                 <i class="fas fa-microphone-alt"></i>
@@ -63,7 +68,7 @@
             </a></li>
         
     <!--............. Listen/Radio....................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
                 <i class="fas fa-headphones-alt"></i>
@@ -71,7 +76,7 @@
             </a></li> 
       
       <!--..................Look/Tv.....................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
                 <i class="fas fa-video"></i>
@@ -80,7 +85,7 @@
       
       
       <!--..............Book............................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
                 <i class="fas fa-phone"></i>
@@ -88,7 +93,7 @@
             </a></li>
       
       <!--...............Contact.......................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
                 <i class="fas fa-envelope-open"></i>
@@ -100,7 +105,6 @@
 </nav>
 </nav>
     </header>
-      
 <!--.......................section.......................-->
       
 <section>   
@@ -108,33 +112,33 @@
 <div class="container-flex">
     <div class="row">
         
-<!--.......................Contact Left side.......................-->
-    <div class="col-xs-11 col-sm-7 offset-1 mr-auto mb-2">
+<!--.......................Booking Left side.......................-->
+    <div class="col-xs-12 col-sm-8 mx-auto mb-2 d-flex align-items-center">
         
 <!--.......................Booking Contact information.......................-->
-        <div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2">
-        <div class="media" style="background-color: rgb(253,255,229,0.3);">
-            <a class="align-self-center mr-3 cardikon3" href= "/about.html" target="_blank">
-            <i class="fa fa-address-card"></i></a>
+        <div class="col-xs-12 col-xl-8 mx-auto justify-content-center align-items-center">
+        <div class="media" style="background-color: rgb(253,255,229,0.3)";>
           <div class="media-body">
-            <h5 class="mt-0 artistname">Book the Band</h5>
-            <address></address><h6 class="card-subtitle mb-2 text-muted">The Monkees</h6>
-            <p class="artistp">570 Monkees Blv Agency <br> Los Angeles CA 9112 <br> USA</p>
-            <p><i class="fas fa-phone"></i> 555-223 512 7289</p>
-            <p>booking@monkees.net123</p>
-        </div>
-        </div>
-        </div>
-        
- <!--....................... Modal.......................-->
-<div class="col-xs-10 col-sm-11 col-xl-7 offset-1 mr-auto mb-2 text-center">
+            <h5 class="indexh1left mt-0">book the band</h5>
+            <div class="text-center cardikon3" data-toggle="modal" data-target="#myModal2">
+            <i class="fa fa-address-card"></i></div>
+            <address></address><h6 class="card-subtitle mb-2 text-muted text-center">The Monkees Booking Sevice</h6>
+            <p class="artistp text-center">570 Monkees Blv Agency <br> Los Angeles CA 9112 <br> USA</p>
+            <p class="text-center"><i class="fas fa-phone mr-2"></i>555-223 512 7289</p>
+            <p class="text-center">booking@monkees.net123</p>
+            
+             <!--....................... Modal.......................-->
+        <div class="mt-2 mb-2 text-center">
     <!--.......................Button to Open the Modal.......................-->
-<button type="button" class="btn btn-cream btn-lg" data-toggle="modal" data-target="#myModal">
-  <i class="fas fa-guitar"></i>Booking request
-</button>
+        <button type="button justify-content-center" class="btn btn-cream btn-lg " data-toggle="modal" data-target="#myModal2"style="background-color:#222040;">
+      <i class="fas fa-guitar"></i>Booking request
+    </button>
+        </div>
+        </div>
+        </div
 
     <!--.......................Inside the Modal.......................-->
-<div class="modal fade" id="myModal">
+<div class="modal fade" id="myModal2">
   <div class="modal-dialog">
     <div class="modal-content" style="background-color:#fdffe5;">
 
@@ -186,60 +190,56 @@
    </div>
 
 <!--.......................Book Right side.......................-->
-        <div class="col-xs-12 col-xl-4 auto">
+        <div class="col-xs-12 col-xl-4 d-flex flex-wrap flex-xl-column justify-content-center align-items-center">
             
-<!--...............Card Web shop.....................-->
-            <div class="row d-none d-xl-block">
-                <div class=" card indexcard rounded" style="width: 18rem;">
-                  <div class="card-body">
-                <a href="/index.html" target="_blank" style="text-decoration:none">
-                    <h5 class="card-title Newsheader cardheadbook">Fan shop</h5></a>
-            <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
-            <div class="cardikon">
-                    <a href="/about.html" target="_blank" class="cardikon">
-                        <i class="fa fa-shopping-cart"></i></a></div>
-   
-                   </div>     
-               </div>
-            </div>
-            
-            <div class="row indexbetween">
-                <div class="col-xl-12"></div>
-            </div>
-            
-<!--...............Card Band history.....................-->               
-            <div class="row d-none d-xl-block">
-                <div class="card indexcard rounded" style="width: 18rem;">
-                    <div class="card-body">
-                <a href="/index.html" target="_blank" style="text-decoration:none">
-                    <h5 class="card-title Newsheader cardheadbook">Band history</h5></a>
-            <div class="cardikon">
-                    <a href="/about.html" target="_blank" class="cardikon">
-                       <img src="/images/band.jpg" alt="band"></a>
-                        </div>
-                  </div>     
-               </div>
-            </div>
-            
-            
-            
+
+    
 <!--......................Card Get social.....................-->                  
-            <div class="row d-none d-xl-block">
+            <div class="row col-xs-12 m-3 justify-content-center align-items-center">
                 <div class="card indexcard rounded" style="width: 18rem;">
                     <div class="card-body">
-                <a href="/index.html" target="_blank" style="text-decoration:none">
+                <a href="https://www.facebook.com/TheMonkees" target="_blank" style="text-decoration:none">
                     <h5 class="card-title Newsheader cardheadbook">get social!</h5></a>
                     <h6 class="card-subtitle mb-2 text-muted">Join the community!</h6>
             <div class="cardikon">
-                    <a href="/about.html" target="_blank" class="cardikon">
+                    <a href="https://www.facebook.com/TheMonkees" target="_blank" class="cardikon">
                         <i class="fab fa-facebook-square"></i></a>
-                    <a href="/about.html" target="_blank" class="cardikon">
+                    <a href="https://twitter.com/TheMonkees" target="_blank" class="cardikon">
                         <i class="fab fa-twitter-square"></i></a>
                         </div>
                   </div>     
                </div>
             </div>
             
+                    
+<!--...............Card Band history.....................-->               
+            <div class="row col-xs-12 m-3 justify-content-center align-items-center">
+                <div class="card indexcard rounded" style="width: 18rem;">
+                    <div class="card-body">
+                <a href="https://sv.wikipedia.org/wiki/The_Monkees" target="_blank" style="text-decoration:none">
+                    <h5 class="card-title Newsheader cardheadbook">Band history</h5></a>
+            <div class="cardikon">
+                    <a href="https://sv.wikipedia.org/wiki/The_Monkees" target="_blank" class="cardikon">
+                       <img src="/images/band.jpg" alt="band"></a>
+                        </div>
+                  </div>     
+               </div>
+            </div>
+
+<!--..............................Card Book the band..............................-->
+             <div class="row col-xs-6 m-3 justify-content-center align-items-center">
+                <div class="card indexcard rounded" style="width: 18rem;">
+                  <div class="card-body">
+                <a href="/book.html" target="_blank" style="text-decoration:none">
+                    <h5 class="card-title Newsheader cardheadbook">BOOK THE BAND!</h5></a>
+            <h6 class="card-subtitle mb-2 text-muted">Are you a believer?</h6>
+            <p class="card-text newsparagraph">We play at partys, weddings and funerals
+            and we are still going strong! Get Monkeefied -  Book the Monkees today!</p>
+                  </div>     
+               </div>
+            </div>
+
+        
             <div class="row indexbetween">
                 <div class="col-sm-12"></div>
             </div>
@@ -257,8 +257,8 @@
      
 <!--.......................footer.......................-->
      
-      <footer class="container-fluid footbg fixed-bottom">
-        <div  id="footer-details" class="row align-items-center">
+      <footer class="container-fluid fixed-bottom">
+        <div  id="footer-details" class="row align-items-center" style="background-color:#5b9bd5;">
             
        <!--........................lOGO........................-->
               
@@ -268,33 +268,33 @@
             </div>
         
         <!--........................YOUTUBE........................-->
-            <div class="col-8 col-md-4 d-flex justify-content-between">
+            <div class="col-12 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="http://www.youtube.com/themonkees"
-                    role="button">
+                    target= "blank" role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
         <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://twitter.com/monkeesofficial"
-                    role="button">
+                    href="https://twitter.com/TheMonkees"
+                    target= "blank" role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
         <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
-                    role="button">
+                    target= "blank" role="button">
                     <span><i class="fab fa-facebook"></i></span>
                 </a>
         
                 <!--........................WEBSHOP........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://www.facebook.com/TheMonkees"
-                    role="button">
+                    href="https://monkeesstore.warnermusic.com/music.html"
+                    target= "blank" role="button">
                     <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 

@@ -12,9 +12,13 @@ f*/
 
 /*-----------------background----------*/
 
+html {
+   height:100%; 
+}
+
 body {
     margin-top: 150px;
-    margin-bottom:50px;
+    margin-bottom:150px;
     background-color: #d9a300;
     background-image: url("/images/0001.jpg");
     background-repeat: no-repeat;
@@ -30,11 +34,13 @@ body {
 
 .navwelcome{
     font-family: 'Spicy Rice', sans-serif;
-    font-size: xx-large;
+    font-size: 78px;
     text-transform: uppercase;
     text-align: center;
     color:#222050;
 }
+
+
 
 .btn-cream{
     background-color: #f2Bb0c;
@@ -43,11 +49,26 @@ body {
     color:#fdffe5;
     font-family: "Raleway", sans-serif;
     font-size: large;
+    text-align: center;
 }
-
 
 .btn-cream:hover{
     color:#5b9bd5;
+}
+
+.btn-cream2{
+    background-color: #5b9bd5;
+    border-bottom-width: thick;
+    border-color: #fdffe5;
+    color:#fdffe5;
+    font-family: "Raleway", sans-serif;
+    font-size: large;
+    text-align: center;
+} 
+
+
+.btn-cream2:hover{
+    color:#f2Bb0c;
 }
 
 .btn-home {
@@ -79,6 +100,12 @@ body {
 
 /*--------------------------Section ---------------------------------------*/
 
+.horse{
+display: !important;
+justify-content:center;
+align-items:center;
+
+}
 
 
 /*--------------------------Index left side------------------------*/
@@ -232,13 +259,15 @@ body {
     height:100%;
 }
 
+
+
+
 .cardikon{
     border-bottom-width: thick;
     border-color: #fdffe5;
     color:#5b9bd5;
     font-size: 5rem;
     text-align: center;
-     
 }
 
 .cardikon:hover{
@@ -258,6 +287,9 @@ body {
     text-align: left;
     text-decoration: none;
 }
+
+
+
 
 
 /*--------------------------Section --About------------------------*/
@@ -310,14 +342,15 @@ body {
 }
 
 
-/*--------------------------Section Contact-------------------------*/
+/*--------------------------Section Contact / Book-------------------------*/
+
 
 
 
 /*------------------------Footer--------------------------*/
 
-.footbg {
-    background-color: #5b9bd5;
+.footbg{
+    background-color: red;
 }
 
 .footerlogo{

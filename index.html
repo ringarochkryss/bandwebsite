@@ -7,7 +7,8 @@
         <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width-device-width, initial-scale-1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
        <title>Index</title>
     </head>
@@ -18,7 +19,7 @@
      <header>
     <!--................NAVBAR..........................-->
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-toggler"  style="background-color: #5b9bd5;">
+      <nav class="navbar navbar-expand-xl fixed-top navbar-light navbar-toggler justify-content-between"  style="background-color: #5b9bd5;">
             
  
   
@@ -30,14 +31,18 @@
                 <i class="fas fa-home"></i>
                 </span>
             </a>
-            
+    <!--.......................Nav Title XS..........................-->        
+            <div class="d-sm-none navtitle" style="text-align:center;">
+            <a style="text-decoration:none;" href="/index.html"><h3 class="navwelcome" style="font-size:20px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE</h3><h1 class="navwelcome" style="font-size:33px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">MONKEES</h1></a>
+            </div>
+    <!--.......................Nav Title SM to XL..........................-->       
             <div class="d-none d-sm-block" style="text-align:center;">
-            <a style="text-decoration:none;" href="/index.html" class="Newsheader"><h1>THE MONKEES </h1></a>
+            <a style="text-decoration:none;" href="/index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
             </div>
     
           
 <!--.......................Nested Navbar..........................-->
-<nav class="navbar navbar-expand-lg navbar-light"  style="background-color: #5b9bd5;">
+<nav class="navbar navbar-expand-xl navbar-light"  style="background-color: #5b9bd5;">
   
   
   <!--...................Navbar Collapse Button......................-->
@@ -55,7 +60,7 @@
         
       
       <!--.....................About..................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/about.html"
             role="button"><span>
                 <i class="fas fa-microphone-alt"></i>
@@ -63,7 +68,7 @@
             </a></li>
         
     <!--............. Listen/Radio....................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/radio.html"
             role="button"><span>
                 <i class="fas fa-headphones-alt"></i>
@@ -71,7 +76,7 @@
             </a></li> 
       
       <!--..................Look/Tv.....................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/tv.html"
             role="button"><span>
                 <i class="fas fa-video"></i>
@@ -80,7 +85,7 @@
       
       
       <!--..............Book............................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/book.html"
             role="button"><span>
                 <i class="fas fa-phone"></i>
@@ -88,7 +93,7 @@
             </a></li>
       
       <!--...............Contact.......................-->
-        <li class="nav-item">
+        <li class="nav-item ml-2">
             <a class="btn btn-cream btn-block active" href="/contact.html"
             role="button"><span>
                 <i class="fas fa-envelope-open"></i>
@@ -106,42 +111,44 @@
       
 <section>   
 
-<div class="container-flex">
-    <div class="row">
+<div class="container-flex d-inline" style="height:100%;">
+    <div class="row align-items-center d-inline-center d-align-center mx-auto">
 <!--........................Index Left side........................-->
-        <div class="col-xs-12 col-sm-7 mr-auto">
-            <div class="row">
-                <div class="col-xs-12 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center">
+        
+        <div class="col-xs-12 col-md-8 mx-auto justify-content-center align-items-center horse">
+
+            <div class="row">  
+                <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-4 order-2 order-lg-1 justify-content-center d-inline-flex align-items-center mx-auto">
                     <a href="/radio.html"  style="text-decoration:none"><h1 class="indexh1left">listen</h1>
                     <img src="/images/radiotrans.png" class="img-fluid indexhoverlefttv" alt="radio">
                     </a></div>
                     
-                <div class="col-xs-12 col-lg-6 col-xl-4  order-1 order-lg-2 justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-4  order-2 order-lg-1 justify-content-center d-inline-flex justify-content-center align-items-center mx-auto">
                    <a href="/tv.html" style="text-decoration:none"><h1 class="indexh1left">Look</h1>
                     <img src="/images/tvtrans.png" class="img-fluid indexhoverlefttv" alt="tv">
                     </a></div>
-                    
-                <div class="row col-xl-4 justify-content-center indexdrum d-none d-xl-block ml-2">
+<!--........................Drum in XL........................-->                    
+                <div class="row col-xl-4 justify-content-center indexdrum d-none d-xl-block mt-3 mx-auto align-items-center">
                     <a href="/about.html" style="text-decoration:none">
                         <div class="indexh1leftdrum">about</div>
                     <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleftdrum" alt="bassdrum">
-                    </a>
+                    </a></div>
             </div>
-            </div>
-            
-            <div class="row col-xs-12 col-xl-4 justify-content-center indexdrum d-xl-none mb-10">
+<!--........................Drum in md-L........................-->            
+            <div class="row d-none d-md-block col-12  justify-content-center indexdrum  m-3 mx-auto justify-content-center align-items-center d-xl-none ">
                 <a href="/about.html" style="text-decoration:none">
                 <div class="indexh1leftdrum">about</div>
                     <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleftdrum" alt="bassdrum">
-                    </a>
-            </div>
+                    </a></div>
             
         </div>
 
-<!--........................Index Right side........................-->
-        <div class="col-xs-12 col-md-4 auto">
+
+<!--........................Index Right side..............................................................-->
+        <div class="col-md-4 text-center flex-wrap flex-xl-column justify-content-center align-items-center">
+            
 <!--..............................In Memoriam..............................-->            
-            <div class="row d-none d-md-block">
+            <div class="row justify-content-center align-items-center col-sm-12 mb-3 mx-auto">
                 <div class=" card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title Newsheader">in memoriam</h5>
@@ -153,11 +160,8 @@
                </div>
             </div>
             
-            <div class="row indexbetween">
-                <div class="col-xs-12"></div>
-            </div>
 <!--..............................Card Coming up!..............................-->                    
-            <div class="row d-none d-md-block">
+            <div class="row justify-content-center align-items-center col-sm-12 mb-3 mx-auto">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
                     <h5 class="card-title Newsheader">COMING UP!</h5>
@@ -165,19 +169,14 @@
             <p class="card-text newsparagraph">We are happy to announce 
             the news that we will act center band during the big Sweden-party in central park N.Y.
             next weekend. See you there!!!</p>
-                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">Calendar</a>
-                    <a href="/images/sample-cv.pdf" target="_blank" class="card-link carlinkblue">Schedule</a>
+                    <a href="contact.html" class="card-link carlinkblue">Calendar</a>
+                    <a href="contact.html" class="card-link carlinkblue">Schedule</a>
                   </div>     
                </div>
             </div>
             
-            <div class="row indexbetween">
-                <div class="col-sm-12"></div>
-            </div>
-            
-            
 <!--..............................Card Book the band..............................-->
-             <div class="row d-none d-xl-block">
+             <div class="row justify-content-center align-items-center col-12 mb-3 mx-auto">
                 <div class="card indexcard rounded" style="width: 18rem;">
                   <div class="card-body">
                 <a href="/book.html" target="_blank" style="text-decoration:none">
@@ -187,6 +186,15 @@
             and we are still going strong! Get Monkeefied -  Book the Monkees today!</p>
                   </div>     
                </div>
+    
+<!--........................Drum in XS-S........................-->            
+            <div class="row col-12 justify-content-center indexdrum m-3 align-items-center d-md-none">
+                <a href="/about.html" style="text-decoration:none">
+                <div class="indexh1leftdrum">about</div>
+                    <img src="/images/monkeesdrumtrans2.png" class="img-fluid indexhoverleftdrum" alt="bassdrum">
+                    </a></div>
+                    
+                    
             </div>
         </div> 
     </div>
@@ -197,8 +205,8 @@
      
 <!--........................footer........................-->
      
-      <footer class="container-fluid footbg fixed-bottom">
-        <div  id="footer-details" class="row align-items-center">
+       <footer class="container-fluid fixed-bottom">
+        <div  id="footer-details" class="row align-items-center" style="background-color:#5b9bd5;">
             
        <!--........................lOGO........................-->
               
@@ -208,33 +216,33 @@
             </div>
         
         <!--........................YOUTUBE........................-->
-            <div class="col-8 col-md-4 d-flex justify-content-between">
+            <div class="col-12 col-md-4 d-flex justify-content-between">
                   
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="http://www.youtube.com/themonkees"
-                    role="button">
+                    target= "blank" role="button">
                     <span><i class="fab fa-youtube"></i></span>
                 </a>
         <!--........................TWITTER........................-->
         
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://twitter.com/monkeesofficial"
-                    role="button">
+                    href="https://twitter.com/TheMonkees"
+                    target= "blank" role="button">
                     <span><i class="fab fa-twitter-square"></i></span>
                 </a>
         <!--........................FACEBOOK........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
                     href="https://www.facebook.com/TheMonkees"
-                    role="button">
+                    target= "blank" role="button">
                     <span><i class="fab fa-facebook"></i></span>
                 </a>
         
                 <!--........................WEBSHOP........................--> 
 
                 <a class="btn-home active btn btn-lg rounded-circle" 
-                    href="https://www.facebook.com/TheMonkees"
-                    role="button">
+                    href="https://monkeesstore.warnermusic.com/music.html"
+                    target= "blank" role="button">
                     <span><i class="fa fa-shopping-cart"></i></span>
                 </a>
                 
