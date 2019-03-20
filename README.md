@@ -1,35 +1,80 @@
-# First Milestone Project 
-Code Institute
+
+# THE BAND PAGE :musical_note: 
+First Milestone Project at Code Institute
 https://ringarochkryss.github.io/milestone1/
 
 
+### Description
+A website for a 60:s band
+The user can look at a video-clip, listen to mp3:s, 
+Learn about news and get contact information.
 
-Website for a 60:s band 
-Bootstrap 4 html5 & Css
+#### User can acess six html-docs:
+* Index
+* Listen
+* Book
+* Look
+* About 
+* Contact
 
-I have drawn some images and a background image 
+#### Colors
+* Yellow background: #d9a300  
+* button yellow: f2Bb0c
+* Light blue #5b9bd5
+* Dark blue #222040
+* White #fdffe5
 
-Pith involves including a video and some sound files.
-I use BS4 grid 
-The site is responsive
+#### Fonts & icons
+* Raleway
+* Spicy Rice
+* Fontawsome -icons
+* Large drawings made in Word/Gimp
 
-I use four colors:
-Yellow background: #d9a300 & for the buttons f2Bb0c
-Light blue #5b9bd5
-Dark blue #222040
-White #fdffe5
+### Features
+* User can download pdf:s
+* User can look at a video-clip
+* User can listen to mp3:s
+* User can read about the band and the band members 
+* User can access social media and a webshop through links
 
-I have a couple of backup sites in my rep -I have used them when working and they are not included in the site.
-The site consists of six html-docs:
-Index
-Listen
-Book
-Look
-About 
-Contact
+### Technologies used
+* Bootstrap 4 
+* html5 
+* Css
 
-All connected to the same CSS -file
+### Endpoints
+---
+Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-endpoint)
 
-No addional Js were used.
 
-Fonts from fontawsome
+### Users
+---
+
+### Installation
+---
+
+### Contributing
+1. Fork this repository to your account.
+2. Clone your repository git clone https://ringarochkryss.github.io/milestone1
+3. Commit changes git commit -m "description of changes"
+4. Push to the remote branch: git push origin new-feature
+5. Open a pull request
+
+### Suggested Contribution
+* :scroll:Clean up inside of the navbar when toggled in xs by using jquery.
+* :wrench:Adjust nav buttons to get the status of active/passive.
+* :pencil2:Toggle Icon -get a white border around it for consistensy
+* :radio:Style the players on the listen-page towards a 60:s style and the style of this site.
+* :tv: Add more videos and for that a suitable controle on the look-page
+* :tv: Animate the tv to zoom up filling the whole screen once the look-page is opened.
+
+### License
+---
+
+
+Mentored by: star: @seunkoko   
+@code institute
+
+
+made by: Petra Mellbrand 2019
+:sweden:
