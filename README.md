@@ -3,6 +3,7 @@
 First Milestone Project at Code Institute
 https://ringarochkryss.github.io/milestone1/
 
+---
 
 ### Description
 A website for a 60:s band
@@ -29,6 +30,7 @@ Learn about news and get contact information.
 * Spicy Rice
 * Fontawsome -icons
 * Large drawings made in Word/Gimp
+---
 
 ### Features
 * User can download pdf:s
@@ -36,19 +38,19 @@ Learn about news and get contact information.
 * User can listen to mp3:s
 * User can read about the band and the band members 
 * User can access social media and a webshop through links
+---
 
 ### Technologies used
 * Bootstrap 4 
 * html5 
 * Css
+---
 
 ### Endpoints
----
 Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-endpoint)
 
-
 ### Users
----
+
 
 ### Installation
 ---
@@ -72,9 +74,9 @@ Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-
 ---
 
 
-Mentored by: star: @seunkoko   
+Mentored by: :star: @seunkoko   
 @code institute
 
 
-made by: Petra Mellbrand 2019
+made by: Petra Mellbrand 2019 
 :sweden:
