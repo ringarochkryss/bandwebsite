@@ -1,5 +1,6 @@
 
-# THE BAND PAGE :musical_note: 
+# THE BAND PAGE 
+![tvtrans](https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png)
 First Milestone Project at Code Institute
 https://ringarochkryss.github.io/milestone1/
 
