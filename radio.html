@@ -36,6 +36,8 @@
                     <i class="fas fa-home"></i>
                 </span>
             </a>
+
+
             <!--.......................Nav Title XS..........................-->
             <div class="d-sm-none navtitle" style="text-align:center;">
                 <a style="text-decoration:none;" href="index.html">
@@ -44,88 +46,84 @@
                 </a>
             </div>
             <!--.......................Nav Title SM to XL..........................-->
-            <div class="d-none d-sm-block" style="text-align:center;">
-                <a style="text-decoration:none;" href="index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
-            </div>
-
-
-            <!--.......................Nested Navbar..........................-->
-            <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
-
-
-                <!--...................Navbar Collapse Button......................-->
-                <button class="navbar-toggler btn-home btn-lg rounded-circle order-1"
-                        type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars"></i></span>
-                </button>
-
-
-
-                <!--.................Navbar buttons......................-->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav pull-right">
-
-
-                        <!--.....................About..................-->
-                        <li class="nav-item ml-2">
-                            <a class="btn btn-cream btn-block active" href="about.html"
-                               role="button">
-                                <span>
-                                    <i class="fas fa-microphone-alt"></i>
-                                    About
-                                </span>
-                            </a>
-                        </li>
-
-                        <!--............. Listen/Radio....................-->
-                        <li class="nav-item ml-2">
-                            <a class="btn btn-cream btn-block active" href="radio.html"
-                               role="button">
-                                <span>
-                                    <i class="fas fa-headphones-alt"></i>
-                                    Listen
-                                </span>
-                            </a>
-                        </li>
-
-                        <!--..................Look/Tv.....................-->
-                        <li class="nav-item ml-2">
-                            <a class="btn btn-cream btn-block active" href="tv.html"
-                               role="button">
-                                <span>
-                                    <i class="fas fa-video"></i>
-                                    Look
-                                </span>
-                            </a>
-                        </li>
-
-
-                        <!--..............Book............................-->
-                        <li class="nav-item ml-2">
-                            <a class="btn btn-cream btn-block active" href="book.html"
-                               role="button">
-                                <span>
-                                    <i class="fas fa-phone"></i>
-                                    Book
-                                </span>
-                            </a>
-                        </li>
-
-                        <!--...............Contact.......................-->
-                        <li class="nav-item ml-2">
-                            <a class="btn btn-cream btn-block active" href="contact.html"
-                               role="button">
-                                <span>
-                                    <i class="fas fa-envelope-open"></i>
-                                    Contact
-                                </span>
-                            </a>
-                        </li>
-
-                    </ul>
+            <div class="d-none d-sm-block  navtitle"
+                    <a style="text-decoration:none;" href="index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
                 </div>
-            </nav>
+
+            <!--...................Navbar Collapse Button......................-->
+
+            <button class="navbar-toggler btn-home active btn btn-lg rounded-circle"
+                    type="button" role="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!--.......................Nested Navbar.....................
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+            <!--.................Navbar buttons......................-->
+            <div class=" col-xl-7 collapse navbar-collapse" id="navbarNav">
+
+
+                <ul class="nav navbar-nav">
+
+                    <!--.....................About..................-->
+                    <li class="nav-item ml-auto mr-3 order-lg-last">
+                        <a class="btn btn-cream btn-block active" href="about.html"
+                           role="button">
+                            <span>
+                                <i class="fas fa-microphone-alt"></i>
+                                About
+                            </span>
+                        </a>
+                    </li>
+
+                    <!--............. Listen/Radio....................-->
+                    <li class="nav-item ml-auto mr-3 order-lg-last">
+                        <a class="btn btn-cream btn-block active" href="radio.html"
+                           role="button">
+                            <span>
+                                <i class="fas fa-headphones-alt"></i>
+                                Listen
+                            </span>
+                        </a>
+                    </li>
+
+                    <!--..................Look/Tv.....................-->
+                    <li class="nav-item ml-auto mr-3 order-lg-last">
+                        <a class="btn btn-cream btn-block active" href="tv.html"
+                           role="button">
+                            <span>
+                                <i class="fas fa-video"></i>
+                                Look
+                            </span>
+                        </a>
+                    </li>
+
+
+                    <!--..............Book............................-->
+                    <li class="nav-item ml-auto mr-3 order-lg-last">
+                        <a class="btn btn-cream btn-block active" href="book.html"
+                           role="button">
+                            <span>
+                                <i class="fas fa-phone"></i>
+                                Book
+                            </span>
+                        </a>
+                    </li>
+
+                    <!--...............Contact.......................-->
+                    <li class="nav-item ml-auto mr-3 order-lg-last">
+                        <a class="btn btn-cream btn-block active" href="contact.html"
+                           role="button">
+                            <span>
+                                <i class="fas fa-envelope-open"></i>
+                                Contact
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -135,11 +133,11 @@
         <section>
 
             <div class="container-flex" style="height:100%;">
-                <div class="row">
+                <div class="row align-items-center d-align-center m-auto">
 
-                    <!--................Radio Left side xs-sm................-->
-                    <div class="col-xs-12 d-block align-content-center mx-auto">
-                        <div class="d-md-none mx-auto align-items-center">
+                    <!--................Radio Left side xs-lg................-->
+                    <div class="col-xs-12 align-items-center d-align-center m-auto">
+                        <div class="d-xl-none mx-auto align-items-center">
 
 
                             <div>
@@ -181,9 +179,9 @@
                         </div>
                     </div>
 
-                    <!--................Radio Left side md-xl................-->
-                    <div class="col-8">
-                        <div class="row d-none d-md-block mx-auto">
+                    <!--................Radio Left side xl................-->
+                    <div class="row col-xl-4 offset-4 d-none d-xl-block mx-auto">
+                        <div class="">
 
                             <div class="row">
                                 <figure class="mb-5 mx-auto">
@@ -227,11 +225,11 @@
 
 
                     <!--................Radio Right side-................-->
-                    <div class="row col-xs-12 col-md-4 align-items-center mx-auto">
+                    <div class="col-xs-12 col-xl-4 d-flex flex-wrap flex-xl-column justify-content-center align-items-center">
 
 
                         <!--..............................Card Fan Shop..............................-->
-                        <div class="row col-xs-6 m-3 mx-auto justify-content-center align-items-center">
+                        <div class="row col-xs-6 m-3 justify-content-center align-items-center">
                             <div class=" card indexcard rounded" style="width: 18rem;">
                                 <div class="card-body">
                                     <a href="https://monkeesstore.warnermusic.com/music.html" target="_blank" style="text-decoration:none">
@@ -240,7 +238,7 @@
                                     <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
                                     <div class="cardikon">
                                         <a href="https://monkeesstore.warnermusic.com/music.html" target="_blank" class="cardikon">
-                                            <i class="fa fa-shopping-cart"></i>
+                                            <img class="align-self-center nutidr" src="images/hat.PNG" alt="hat">
                                         </a>
                                     </div>
 
@@ -250,7 +248,7 @@
 
 
                         <!--......................Card Get social.....................-->
-                        <div class="row col-xs-6 m-3 mx-auto justify-content-center align-items-center">
+                        <div class="row col-xs-6 m-3 justify-content-center align-items-center">
                             <div class="card indexcard rounded" style="width: 18rem;">
                                 <div class="card-body">
                                     <a href="https://www.facebook.com/TheMonkees" target="_blank" style="text-decoration:none">

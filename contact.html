@@ -36,6 +36,8 @@
                         <i class="fas fa-home"></i>
                     </span>
                 </a>
+
+
                 <!--.......................Nav Title XS..........................-->
                 <div class="d-sm-none navtitle" style="text-align:center;">
                     <a style="text-decoration:none;" href="index.html">
@@ -44,88 +46,84 @@
                     </a>
                 </div>
                 <!--.......................Nav Title SM to XL..........................-->
-                <div class="d-none d-sm-block" style="text-align:center;">
+                <div class="d-none d-sm-block  navtitle"
                     <a style="text-decoration:none;" href="index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
                 </div>
 
+                <!--...................Navbar Collapse Button......................-->
 
-                <!--.......................Nested Navbar..........................-->
-                <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+                <button class="navbar-toggler btn-home active btn btn-lg rounded-circle"
+                        type="button" role="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
 
-
-                    <!--...................Navbar Collapse Button......................-->
-                    <button class="navbar-toggler btn-home btn-lg rounded-circle order-1"
-                            type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fas fa-bars"></i></span>
-                    </button>
-
-
-
-                    <!--.................Navbar buttons......................-->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav pull-right">
+                <!--.......................Nested Navbar.....................
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+            <!--.................Navbar buttons......................-->
+                <div class=" col-xl-7 collapse navbar-collapse" id="navbarNav">
 
 
-                            <!--.....................About..................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="about.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-microphone-alt"></i>
-                                        About
-                                    </span>
-                                </a>
-                            </li>
+                    <ul class="nav navbar-nav">
 
-                            <!--............. Listen/Radio....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="radio.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-headphones-alt"></i>
-                                        Listen
-                                    </span>
-                                </a>
-                            </li>
+                        <!--.....................About..................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="about.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-microphone-alt"></i>
+                                    About
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--..................Look/Tv.....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="tv.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-video"></i>
-                                        Look
-                                    </span>
-                                </a>
-                            </li>
+                        <!--............. Listen/Radio....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="radio.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-headphones-alt"></i>
+                                    Listen
+                                </span>
+                            </a>
+                        </li>
+
+                        <!--..................Look/Tv.....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="tv.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-video"></i>
+                                    Look
+                                </span>
+                            </a>
+                        </li>
 
 
-                            <!--..............Book............................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="book.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-phone"></i>
-                                        Book
-                                    </span>
-                                </a>
-                            </li>
+                        <!--..............Book............................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="book.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-phone"></i>
+                                    Book
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--...............Contact.......................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="contact.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-envelope-open"></i>
-                                        Contact
-                                    </span>
-                                </a>
-                            </li>
+                        <!--...............Contact.......................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="contact.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-envelope-open"></i>
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
 
-                        </ul>
-                    </div>
-                </nav>
+                    </ul>
+                </div>
             </nav>
         </header>
      
@@ -149,17 +147,19 @@
                                     <div class="text-center cardikon3" data-toggle="modal" data-target="#myModal">
                                         <i class="fa fa-address-card"></i></a>
                                     </div>
-                                    <address></address><h6 class="card-subtitle mb-2 text-muted text-center">The Monkees</h6>
-                                    <p class="artistp text-center">570 Monkees Blv <br> Los Angeles CA 9112 <br> USA</p>
-                                    <p class="text-center"><i class="fas fa-phone mr-2"></i>555-223 512 7289</p>
-                                    <p class="text-center">contact@monkees.net123</p>
+                                    <address>
+                                        <h5 class="card-subtitle mb-2 text-center">The Monkees</h5>
+                                        <p class="artistp text-center">570 Monkees Blv <br> Los Angeles CA 9112 <br> USA</p>
+                                        <p class="text-center"><i class="fas fa-phone mr-2"></i>555-223 512 7289</p>
+                                        <p class="text-center">contact@monkees.net123</p>
+                                    </address>
 
 
                                     <!--..........................Modal..........................-->
                                     <div class="mt-2 mb-2 text-center">
 
                                         <!--..........................Button to Open the Modal..........................-->
-                                        <button type="button justify-content-center" class="btn btn-lg btn-cream" data-toggle="modal" data-target="#myModal" style="background-color:#222040;">
+                                        <button type="button justify-content-center" class="btn btn-lg btn-cream2" data-toggle="modal" data-target="#myModal" style="background-color:#222040;">
                                             <i class="fas fa-pencil-alt"></i>Contact us here!
                                         </button>
                                     </div>
@@ -220,7 +220,7 @@
                                     <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
                                     <div class="cardikon">
                                         <a href="https://monkeesstore.warnermusic.com/music.html" target="_blank" class="cardikon">
-                                            <i class="fa fa-shopping-cart"></i>
+                                            <img class="align-self-center nutidr" src="images/hat.PNG" alt="hat">   
                                         </a>
                                     </div>
 
@@ -240,8 +240,13 @@
                                     <a href="/book.html" target="_blank" style="text-decoration:none">
                                         <h5 class="card-title Newsheader cardheadbook">BOOK THE BAND!</h5>
                                     </a>
-                                    <h6 class="card-subtitle mb-2 text-muted">Are you a believer?</h6>
-                                    <p class="card-text newsparagraph">
+                                    <div class="cardikon">
+                                        <a href="https://sv.wikipedia.org/wiki/The_Monkees" target="_blank" class="cardikon">
+                                            <img class="align-self-center nutidr" src="images/bookbild.PNG" alt="band">
+                                        </a>
+                                    </div>
+                                    <h6 class="card-subtitle mt-2 text-muted text-center">Are you a believer?</h6>
+                                    <p class="card-text newsparagraph text-center">
                                         We play at partys, weddings and funerals
                                         and we are still going strong! Get Monkeefied -  Book the Monkees today!
                                     </p>

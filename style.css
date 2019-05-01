@@ -79,6 +79,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: large;
     text-align: center;
+    width:7em;
 }
 
 .btn-cream:hover{
@@ -93,6 +94,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: large;
     text-align: center;
+
 } 
 
 
@@ -101,8 +103,7 @@ body {
 }
 
 .btn-home {
-    border-width: thick;
-    border-color: #fdffe5;
+    border: thick solid #fdffe5;
     color:#fdffe5;
     padding: 0;
     font-size:30px;
@@ -248,9 +249,14 @@ body {
     font-size: smaller;
 }
 
-.carlinkblue{
-   color:#5b9bd5;
-   font-family: 'Raleway', sans-serif;
+.carlinkblue {
+    color: #222050;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carlinkblue:hover {
+    color: #5b9bd5;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -274,35 +280,42 @@ body {
 
 
 /*--------------------------Section --radio & tv------------------------*/
+
+.tvinside {
+    position: center;
+}
+
 .laptop-wrapper {
-    position:relative;
-    padding-top: 25px;
-    padding-bottom: 67.5%;
+    position: relative;
+    padding-bottom: 69.5%;
+    padding-top: 0px;
+    padding-right: 0px;
+    border: 0;
     height: 0;
+    margin-bottom:20%;
 }
 
-.laptop-wrapper iframe {
-    box-sizing: border-box background;
-    background: url("images/tvtrans.png") center center no-repeat;
-    background-size: contain;
-    padding: 26% 34.5% 24% 27.2%;
-    position:absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height:100%;
-}
+    .laptop-wrapper iframe {
+        box-sizing:border-box;
+        background: url("images/tvtrans.png") center center no-repeat;
+        background-size: 98%;
+        padding: 29.7% 27.7% 27% 16.6%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 130%;
+        display:block;
+    }
 
 
-
-
-.cardikon{
-    border-bottom-width: thick;
-    border-color: #fdffe5;
-    color:#5b9bd5;
-    font-size: 5rem;
-    text-align: center;
-}
+    .cardikon {
+        border-bottom-width: thick;
+        border-color: #fdffe5;
+        color: #5b9bd5;
+        font-size: 5rem;
+        text-align: center;
+    }
 
 .cardikon:hover{
     color:#f2Bb0c;
@@ -334,8 +347,20 @@ body {
     width:20%;
 }
 
-.artistname{
- font-family: 'Spicy Rice', cursive; 
+.nutid {
+    width: 50%;
+    margin:3;
+}
+
+.nutidr {
+    width: 65%;
+    border-radius: 5%;
+    margin: 1;
+}
+
+
+.artistname {
+    font-family: 'Spicy Rice', cursive;
 }
 
 .artistname:hover{

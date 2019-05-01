@@ -37,6 +37,8 @@
                         <i class="fas fa-home"></i>
                     </span>
                 </a>
+
+
                 <!--.......................Nav Title XS..........................-->
                 <div class="d-sm-none navtitle" style="text-align:center;">
                     <a style="text-decoration:none;" href="index.html">
@@ -45,88 +47,84 @@
                     </a>
                 </div>
                 <!--.......................Nav Title SM to XL..........................-->
-                <div class="d-none d-sm-block" style="text-align:center;">
+                <div class="d-none d-sm-block  navtitle"
                     <a style="text-decoration:none;" href="index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
                 </div>
 
+                <!--...................Navbar Collapse Button......................-->
 
-                <!--.......................Nested Navbar..........................-->
-                <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+                <button class="navbar-toggler btn-home active btn btn-lg rounded-circle"
+                        type="button" role="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
 
-
-                    <!--...................Navbar Collapse Button......................-->
-                    <button class="navbar-toggler btn-home btn-lg rounded-circle order-1"
-                            type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fas fa-bars"></i></span>
-                    </button>
-
-
-
-                    <!--.................Navbar buttons......................-->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav pull-right">
+                <!--.......................Nested Navbar.....................
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+            <!--.................Navbar buttons......................-->
+                <div class=" col-xl-7 collapse navbar-collapse" id="navbarNav">
 
 
-                            <!--.....................About..................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="about.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-microphone-alt"></i>
-                                        About
-                                    </span>
-                                </a>
-                            </li>
+                    <ul class="nav navbar-nav">
 
-                            <!--............. Listen/Radio....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="radio.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-headphones-alt"></i>
-                                        Listen
-                                    </span>
-                                </a>
-                            </li>
+                        <!--.....................About..................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="about.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-microphone-alt"></i>
+                                    About
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--..................Look/Tv.....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="tv.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-video"></i>
-                                        Look
-                                    </span>
-                                </a>
-                            </li>
+                        <!--............. Listen/Radio....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="radio.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-headphones-alt"></i>
+                                    Listen
+                                </span>
+                            </a>
+                        </li>
+
+                        <!--..................Look/Tv.....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="tv.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-video"></i>
+                                    Look
+                                </span>
+                            </a>
+                        </li>
 
 
-                            <!--..............Book............................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="book.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-phone"></i>
-                                        Book
-                                    </span>
-                                </a>
-                            </li>
+                        <!--..............Book............................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="book.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-phone"></i>
+                                    Book
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--...............Contact.......................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="contact.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-envelope-open"></i>
-                                        Contact
-                                    </span>
-                                </a>
-                            </li>
+                        <!--...............Contact.......................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="contact.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-envelope-open"></i>
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
 
-                        </ul>
-                    </div>
-                </nav>
+                    </ul>
+                </div>
             </nav>
         </header>
      
@@ -142,13 +140,36 @@
                     <!--.....................About Left side......................-->
                     <div class="col-xs-12 col-xl-8 mx-auto mb-2 flex-column horse">
 
+                        <!--.....................BAND HISTORY.....................-->
+                        <div class="col-xs-11 col-sm-11 col-xl-7 mx-auto mb-3">
+                            <div class="media" style="background-color: rgb(253,255,229,0.3);">
+                                <img class="align-self-center mr-3 artistimage" src="images/band.jpg" style="border-radius:50%;" alt="The Band">
+                                <div class="media-body">
+                                    <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank" style="text-decoration:none; color: #222040;">
+                                        <h5 class="mt-0 artistname">Band History</h5>
+                                    </a>
+                                    <p class="m-2 p-2 artistp">
+                                        The idea was not to start a band. It was just a tv-show about a imaginary band where everyone wanted to be like the Beatles
+                                        -without beeing successful. However fiction and reality didn't match and the Monkees have sold more than 75 million records worldwide...
+                                    </p>
+                                    <a class="align-self-center cardikon2" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">
+                                        <i class="fa fa-comments"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                         <!--.....................Artist Micky Dolenz.....................-->
                         <div class="col-xs-11 col-sm-11 col-xl-7 mx-auto mb-3">
                             <div class="media" style="background-color: rgb(253,255,229,0.3);">
                                 <img class="align-self-center mr-3 artistimage" src="images/mdfix2.png" alt="Micky Dolenz">
                                 <div class="media-body">
                                     <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Micky Dolenz</h5></a>
-                                    <p class="m-2 p-2 artistp">Micky sings and playes the drums.</p>
+                                    <p class="m-2 p-2 artistp">
+                                        Micky was recruted to the Monkees tv-show to sing and play the drums. He was already a skilled musician, singer and actor
+                                        but he actually didn't know how to play the drums. Just to mime credible he needed many lessons.
+                                        .
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +179,11 @@
                                 <img class="align-self-center mr-3 artistimage" src="images/mnfix2.png" alt="Michael Nesmith">
                                 <div class="media-body">
                                     <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Michael Nesmith</h5></a>
-                                    <p class="m-2 p-2 artistp">Michael sings and playes the gitarr.</p>
+                                    <p class="m-2 p-2 artistp">
+                                        Michael sings and playes the gitarr. They say he won his role in the Monkees after appearing nochalant on the audition and
+                                        standing out as the "wool hat guy". Besides beeing a important singer and songwriter for the Monkees he also have had a solo carreer,
+                                        worked as a producer and as a writer.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +193,10 @@
                                 <img class="align-self-center mr-3 artistimage" src="images/djfix2.png" alt="Davy Jones">
                                 <div class="media-body">
                                     <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Davy Jones</h5></a>
-                                    <p class="m-2 p-2 artistp">Davy sang and played the gitarr, tamb and maracas. He passed away 2012.</p>
+                                    <p class="m-2 p-2 artistp">
+                                        Davy sang and played the gitarr, tamb and maracas. He was a skilled musical actor performing on West End in London
+                                        before getting recruted to the Monkees. He also loved horses and was a talented jockey. It was on the horseback the massive heart attack came that took his life in 2012.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -178,51 +206,49 @@
                                 <img class="align-self-center mr-3 artistimage" src="images/ptfix2.png" alt="Peter Tork">
                                 <div class="media-body">
                                     <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Peter Tork</h5></a>
-                                    <p class="m-2 p-2 artistp">Peter sang and played the bass, banjo and keyboard. He passed away 2019.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!--.....................BAND HISTORY XS-LG.....................-->
-                        <div class="col-xs-11 col-sm-11 col-xl-7 mx-auto mb-3 d-xl-none">
-                            <div class="media" style="background-color: rgb(253,255,229,0.3);">
-                                <img class="align-self-center mx-2 artistimage" src="images/band.jpg" alt="The Band">
-                                <div class="media-body">
-                                    <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Band History</h5></a>
-                                    <h6 class="card-subtitle mb-2 text-muted">The band was founded 1966....</h6>
-                                    <a class="align-self-center cardikon2" href="about.html" target="_blank">
-                                        <i class="fa fa-comments"></i>
-                                    </a>
+                                    <p class="m-2 p-2 artistp">
+                                        Peter sang and played the bass, banjo and keyboard. He was probably the most skilled musician in the band
+                                        and also the only one playing on the first records. Peter had his own fan club (administrated by his "Granny") but was later released
+                                        from his Monkee contract to be able to work on other musical projects.
+                                        Later on Peter joined the band again for reunion tours and when diagnosed with cancer 2009 he encouraged his fans to support the cancer research.
+                                        He passed away 2019.
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
-                        <!--.....................Archive.....................-->
+                        <!--.....................Coming up....................-->
                         <div class="col-xs-11 col-sm-11 col-xl-7 mx-auto mb-3">
-                            <div class="media" style="background-color: rgb(253,255,229,0.3);">
-                                <a class="align-self-center mr-3 cardikon3" href="about.html" target="_blank">
-                                    <i class="fa fa fa-archive"></i>
+
+                            <div class="col-12 media-body mx-auto text-center media-body" style="background-color: rgb(253,255,229,0.3);">
+                                <a href="https://www.monkees.net/" style="text-decoration:none; color: #222040;" target="_blank">
+                                    <h4 class="mt-1 artistname">Tour</h4>
                                 </a>
-                                <div class="media-body">
-                                    <a href="#" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">News Archive</h5></a>
-                                    <h6 class="card-subtitle mb-2 text-muted">..for daydream believers...</h6>
+                                <a class="align-self-center cardikon3" href="https://www.monkees.net/" target="_blank">
+                                    <img class="align-self-center nutid" src="images/nutid.PNG" alt="onstage">
+                                </a>
+                                <div class="col-12">
+
+                                    <p class="m-2 p-2 artistp">
+                                        <hr class="my-1">
+                                        Micky Dolenz 06/15-17/2020 Niagara Falls, Ontario, Canada<br /><hr class="my-1">
+                                        Micky Dolenz 09/22/2019 St. Charles, Illinois<br /><hr class="my-1">
+                                        Micky Dolenz 05/04/2019 Glendora, California<br /><hr class="my-1">
+                                        Micky Dolenz 04/14/2019 Bonita Springs, Florida<br /><hr class="my-1">
+                                        Micky Dolenz 04/13/2019 Dania Beach, Florida<br /><hr class="my-1">
+                                        Micky Dolenz & Mike Nesmith 06/18/2019 Sydney Australia<br /><hr class="my-1">
+                                        Micky Dolenz & Mike Nesmith 06/16/2019 Perth Australia<br /><hr class="my-1">
+                                        Micky Dolenz & Mike Nesmith 06/15/2019 Melbourne Australia<br /><hr class="my-1">
+                                        Micky Dolenz & Mike Nesmith 06/12/2019 Brisbane Australia<br /><hr class="my-1">
+                                        Micky Dolenz & Mike Nesmith 06/10/2019 Wellington New Zealand<hr class="my-1">
+
+                                    </p>
 
                                 </div>
                             </div>
                         </div>
 
-                        <!--.....................Web Shop XS-LG.....................-->
-                        <div class="col-xs-11 col-sm-11 col-xl-7 mx-auto mb-3 d-xl-none">
-                            <div class="media" style="background-color: rgb(253,255,229,0.3);">
-                                <a class="align-self-center mr-3 cardikon3" href="https://monkeesstore.warnermusic.com/music.html" target="_blank">
-                                    <i class=" fa fa-shopping-cart"></i>
-                                </a>
-                                <div class="media-body">
-                                    <a href="https://monkeesstore.warnermusic.com/music.html" style="text-decoration:none; color: #222040;"><h5 class="mt-0 artistname">Fan Shop</h5></a>
-                                    <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
 
-                                </div>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -233,16 +259,35 @@
                     <div class="col-xs-12 d-none d-xl-block d-xl-4 mx-auto" style="height:100%;">
 
 
-                        <!--..............................Card Band history..............................-->
-                        <div class="row d-none d-xl-block m-3 justify-content-center align-items-center">
+                        <!--..............................Card Coming up..............................-->
+                        <div class="row d-none d-xl-block m-3 justify-content-center align-items-center mx-auto">
                             <div class="card indexcard rounded" style="width: 18rem;">
-                                <div class="card-body">
-                                    <a href="https://sv.wikipedia.org/wiki/The_Monkees" target="_blank" style="text-decoration:none">
-                                        <h5 class="card-title Newsheader cardheadbook">Band history</h5>
+                                <div class="card-body text-center">
+                                    <a href="https://www.monkees.net/" target="_blank" style="text-decoration:none">
+                                        <h5 class="card-title Newsheader cardheadbook">Coming up</h5>
                                     </a>
                                     <div class="cardikon">
-                                        <a href="https://sv.wikipedia.org/wiki/The_Monkees" target="_blank" class="cardikon">
-                                            <img src="images/band.jpg" alt="band">
+                                        <a href="https://www.monkees.net/" target="_blank" class="cardikon">
+                                            <img class="align-self-center nutidr" src="images/nutidr.PNG" alt="Onstage">
+                                        </a>
+                                    </div>
+                                    <a href="https://www.monkees.net/" target="_blank" class="card-link carlinkblue">Current Tour</a>
+                                    <a href="https://www.monkees.net/category/news/news-feed/" target="_blank" class="card-link carlinkblue">Press</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--..............................Card Listen..............................-->
+                        <div class="row d-none d-xl-block m-3 justify-content-center align-items-center mx-auto">
+                            <div class="card indexcard rounded" style="width: 18rem;">
+                                <div class="card-body">
+                                    <a href="radio.html" target="_blank" style="text-decoration:none">
+                                        <h5 class="card-title Newsheader cardheadbook">Listen</h5>
+                                    </a>
+                                    <div class="cardikon">
+                                        <a href="radio.html" target="_blank" class="cardikon">
+                                            <img class="align-self-center nutidr" src="images/cover.jpg" alt="band">
                                         </a>
 
                                     </div>
@@ -250,19 +295,9 @@
                             </div>
                         </div>
 
-                        <!--..............................Space..............................-->
-                        <div class="row indexbetween">
-                            <div class="col-xl-12"></div>
-                        </div>
-
-
-                        <!--.............................Space.............................-->
-                        <div class="row indexbetween">
-                            <div class="col-xl-12"></div>
-                        </div>
 
                         <!--..............................Card Webshop..............................-->
-                        <div class="row col-xs-12 d-none d-xl-block m-3 justify-content-center align-items-center">
+                        <div class="row col-xs-12 d-none d-xl-block m-3 justify-content-center align-items-center mx-auto">
                             <div class=" card indexcard rounded" style="width: 18rem;">
                                 <div class="card-body">
                                     <a href="https://monkeesstore.warnermusic.com/music.html" target="_blank" style="text-decoration:none">
@@ -271,7 +306,7 @@
                                     <h6 class="card-subtitle mb-2 text-muted">Visit our webshop today!</h6>
                                     <div class="cardikon">
                                         <a href="https://monkeesstore.warnermusic.com/music.html" target="_blank" class="cardikon">
-                                            <i class="fa fa-shopping-cart"></i>
+                                            <img class="align-self-center nutidr" src="images/hat.PNG" alt="hat">
                                         </a>
                                     </div>
 

@@ -36,6 +36,8 @@
                         <i class="fas fa-home"></i>
                     </span>
                 </a>
+
+
                 <!--.......................Nav Title XS..........................-->
                 <div class="d-sm-none navtitle" style="text-align:center;">
                     <a style="text-decoration:none;" href="index.html">
@@ -44,88 +46,84 @@
                     </a>
                 </div>
                 <!--.......................Nav Title SM to XL..........................-->
-                <div class="d-none d-sm-block" style="text-align:center;">
+                <div class="d-none d-sm-block  navtitle"
                     <a style="text-decoration:none;" href="index.html"><h1 class="navwelcome" style="font-size:78px; color:#d9a300; text-shadow:2px 2px 2px #fdffe5;">THE MONKEES</h1></a>
                 </div>
 
+                <!--...................Navbar Collapse Button......................-->
 
-                <!--.......................Nested Navbar..........................-->
-                <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+                <button class="navbar-toggler btn-home active btn btn-lg rounded-circle"
+                        type="button" role="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
 
-
-                    <!--...................Navbar Collapse Button......................-->
-                    <button class="navbar-toggler btn-home btn-lg rounded-circle order-1"
-                            type="button" data-toggle="collapse" data-target="#navbarNav"
-                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span><i class="fas fa-bars"></i></span>
-                    </button>
-
-
-
-                    <!--.................Navbar buttons......................-->
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav pull-right">
+                <!--.......................Nested Navbar.....................
+        <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #5b9bd5;">
+            <!--.................Navbar buttons......................-->
+                <div class=" col-xl-7 collapse navbar-collapse" id="navbarNav">
 
 
-                            <!--.....................About..................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="about.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-microphone-alt"></i>
-                                        About
-                                    </span>
-                                </a>
-                            </li>
+                    <ul class="nav navbar-nav">
 
-                            <!--............. Listen/Radio....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="radio.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-headphones-alt"></i>
-                                        Listen
-                                    </span>
-                                </a>
-                            </li>
+                        <!--.....................About..................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="about.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-microphone-alt"></i>
+                                    About
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--..................Look/Tv.....................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="tv.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-video"></i>
-                                        Look
-                                    </span>
-                                </a>
-                            </li>
+                        <!--............. Listen/Radio....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="radio.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-headphones-alt"></i>
+                                    Listen
+                                </span>
+                            </a>
+                        </li>
+
+                        <!--..................Look/Tv.....................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="tv.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-video"></i>
+                                    Look
+                                </span>
+                            </a>
+                        </li>
 
 
-                            <!--..............Book............................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="book.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-phone"></i>
-                                        Book
-                                    </span>
-                                </a>
-                            </li>
+                        <!--..............Book............................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="book.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-phone"></i>
+                                    Book
+                                </span>
+                            </a>
+                        </li>
 
-                            <!--...............Contact.......................-->
-                            <li class="nav-item ml-2">
-                                <a class="btn btn-cream btn-block active" href="contact.html"
-                                   role="button">
-                                    <span>
-                                        <i class="fas fa-envelope-open"></i>
-                                        Contact
-                                    </span>
-                                </a>
-                            </li>
+                        <!--...............Contact.......................-->
+                        <li class="nav-item ml-auto mr-3 order-lg-last">
+                            <a class="btn btn-cream btn-block active" href="contact.html"
+                               role="button">
+                                <span>
+                                    <i class="fas fa-envelope-open"></i>
+                                    Contact
+                                </span>
+                            </a>
+                        </li>
 
-                        </ul>
-                    </div>
-                </nav>
+                    </ul>
+                </div>
             </nav>
         </header>
      
@@ -135,13 +133,13 @@
         <section>
 
             <div class="container-flex">
-                <div class="row align-items-center d-align-center m-auto">
-                    <!--........................Tv Left side........................-->
+                <div class="row ">
+                    <!--...............align-items-center d-align-center m-auto.........Tv Left side........................-->
                     <!--........................Tv........................-->
 
-                    <div class="col-xs-12 col-xl-6 offset-xl-2">
-                        <div class="laptop-wrapper">
-                            <iframe width="900" height="900" controls
+                    <div class="col-xs-12 col-xl-6 m-auto tvinside">
+                        <div class="laptop-wrapper flex-wrap">
+                            <iframe width="0" height="0" controls
                                     source src="movies/TheMonkees.mp4" type="video/mp4" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
