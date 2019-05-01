@@ -1,8 +1,8 @@
 
-# THE BAND PAGE 
+# [THE BAND PAGE] (https://ringarochkryss.github.io/milestone1/)
 <img src= "https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png" width="50">
 First Milestone Project at Code Institute
-https://ringarochkryss.github.io/milestone1/
+
 
 ---
 
