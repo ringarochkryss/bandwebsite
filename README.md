@@ -1,6 +1,6 @@
 
 # THE BAND PAGE 
-![tvtrans](https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png width:20%)
+<img src= "https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png" width="50">
 First Milestone Project at Code Institute
 https://ringarochkryss.github.io/milestone1/
 
@@ -64,9 +64,6 @@ Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-
 5. Open a pull request
 
 ### Suggested Contribution
-* :scroll:Clean up inside of the navbar when toggled in xs by using jquery.
-* :wrench:Adjust nav buttons to get the status of active/passive.
-* :pencil2:Toggle Icon -get a white border around it for consistensy
 * :radio:Style the players on the listen-page towards a 60:s style and the style of this site.
 * :tv: Add more videos and for that a suitable controle on the look-page
 * :tv: Animate the tv to zoom up filling the whole screen once the look-page is opened.
