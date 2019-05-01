@@ -9,7 +9,7 @@ https://ringarochkryss.github.io/milestone1/
 ### Description
 A website for a 60:s band
 The user can look at a video-clip, listen to mp3:s, 
-Learn about news and get contact information.
+Learn about band news and get contact information.
 
 #### User can acess six html-docs:
 * Index
@@ -18,6 +18,14 @@ Learn about news and get contact information.
 * Look
 * About 
 * Contact
+
+### Layout & UX 
+To mirror a 60:s style the layout for this website is old school with:
+* retro crazy colors (defined below)
+* old school buttons in navbar and footer
+* rounded corners on images
+* custom-made old-style icons
+The wireframe and all icons is made in MS Word 
 
 #### Colors
 * Yellow background: #d9a300  
@@ -30,7 +38,7 @@ Learn about news and get contact information.
 * Raleway
 * Spicy Rice
 * Fontawsome -icons
-* Large drawings made in Word/Gimp
+* Drawings made in Word/Gimp
 ---
 
 ### Features
