@@ -28,7 +28,7 @@ The site is organized with 6 html-pages:
 All pages is easily accessed through buttons in the main menue and 
 illustrated with icons to make the content appealing and easy to use. 
 
-Navigaion bar displays access to the other pages and the footer holds social links. 
+Navigation bar displays access to the other pages and the footer holds social links. 
 
 ---
 
