@@ -23,6 +23,8 @@ Other content comes from the following sources:
 * [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees/) (Content information for the text on the About site)
 * [BBC News](https://www.bbc.com/news/entertainment-arts-47319788) (Image for the card "Book the band")
 
+---
+
 ### Users / Target Group 
 Users of this site is either fans, persons who wish to book the band or people who are just curious. 
 The site is organized with 6 html-pages:
