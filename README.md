@@ -1,16 +1,18 @@
 
 # THE BAND PAGE 
-<img src= "https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png" width="50">
+<img src= "https://user-images.githubusercontent.com/47560139/57042668-af4bfc00-6c65-11e9-86f1-780f10328053.png" width="70">
+The Monkees in Swedish colors  -now that's something!
+
 First Milestone Project at Code Institute 
 https://ringarochkryss.github.io/milestone1/
 
 ---
 
 ### Description
-A website for a 60:s band
-The user can look at a video-clip, listen to mp3:s, 
+This is a website for a famous 60:s band called the Monkees. 
+The users can look at a video-clip, listen to mp3:s, 
 Learn about band news and get contact information.
-Users can easily use the site for booking requests.
+Users can also easily use this site for booking requests.
 
 ---
 
@@ -25,10 +27,10 @@ The site is organized with 6 html-pages:
 * About  -Info about the band, the band members and current tour.
 * Contact - Access contact information and the possibility to fill in a contact form. 
 
-All pages is easily accessed through buttons in the main menue and 
+All pages is accessed through buttons in the header and 
 illustrated with icons to make the content appealing and easy to use. 
 
-Navigation bar displays access to the other pages and the footer holds social links. 
+The footer provides the user with social links. 
 
 ---
 
@@ -58,15 +60,21 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 * Spicy Rice
 * Fontawsome -icons
 * Drawings made in Word/Gimp
+
 ---
 
 ### Features
-* User can download pdf:s
+* User can read about the band and the band members
+* User can see the news about the band
 * User can look at a video-clip
 * User can listen to mp3:s
-* User can read about the band and the band members 
-* User can access social media, all kinds of info and a webshop through links
-
+* User can download pdf:s 
+* User can access social media 
+* User can access all kinds of additional info about the band though links to other websites
+* User can access the Bands Webshop
+* User can access contact and booking information
+* User can contact the band through a modal form
+* User can book the band through a modal form
 ---
 
 ### Languages used
@@ -77,15 +85,23 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 ---
 
 ### Technologies used
-* Cloud 9 
-* Visual Studio
-* Git Hub
-* W3 Validator -Html & CSS
-* Gimp image editor
-* MS Word image editor and imaging tools (Wireframe)
-* Font Awsome
-* Google Fonts
-* Chrome Inspector Tools
+* [Cloud 9](https://c9.io/login) 
+..*the inital commits and work was made in C9. Problems with the CSS-Html-"communication" made me change from C9 to VS.  
+* [Visual Studio](https://visualstudio.microsoft.com/) 
+..*Final commits and work was made in VS.
+* [Git Hub](https://github.com/) 
+* [W3 Validator](https://validator.w3.org/) -Html & CSS
+* [Gimp](https://www.gimp.org/) 
+..*Image editor used to provide the drawings with transparent backgrounds.
+* [Microsoft Word](https://office.live.com/start/Word.aspx) 
+..*Wireframe
+..*Drawings 
+..*Background 
+..*Artist images altering
+* [Font Awsome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Chrome Inspector Tools](https://www.google.com/chrome/)
+* [Bootstrap 4](https://getbootstrap.com/)
 
 ---
 
