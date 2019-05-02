@@ -70,7 +70,6 @@ body {
 }
 
 
-
 .btn-cream{
     background-color: #f2Bb0c;
     border-bottom-width: thick;
@@ -85,6 +84,7 @@ body {
 .btn-cream:hover{
     color:#5b9bd5;
 }
+
 
 .btn-cream2{
     background-color: #5b9bd5;
@@ -222,7 +222,6 @@ body {
 
 
 /*-------SPACE----------*/
-
 .indexbetween{
     background-color: transparent;
     height:10px;
@@ -275,8 +274,6 @@ body {
     overflow: auto;
     height: 16em;
 }
-
-/*--------------------------Section --Index//------------------------*/
 
 
 /*--------------------------Section --radio & tv------------------------*/
@@ -403,7 +400,7 @@ body {
 
 /*--------------------------Section Contact / Book-------------------------*/
 
-
+        /*---The modal buttons styling is found by the Navbar -items----*/
 
 
 /*------------------------Footer--------------------------*/
