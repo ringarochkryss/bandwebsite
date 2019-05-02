@@ -168,8 +168,6 @@ Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-
 ---
 
 ### Deployment
-This work is originally made in C9 and later on moved to Visual Studio for better functionality. 
-The work has been pushed to Github from first C9 and later on VS. 
 As a "user page" the repository on Github can only be published from the master branch.
 
 To configure a publishing source for Github Pages:  
@@ -194,9 +192,6 @@ To configure a publishing source for Github Pages:
 ---
 
 ### Acknowledgements
-The Monkees already have a great site and this is a attempt to do something completely different from that. 
-* Inspiration from 60:s posters and covers of the Monkees and other famous bands and artists
-* Inspiration from the cartoonish style popular in the 60:s
 Acknowledgements to Monkees.com and monkees.net for inspiraton and facts.
  
 
