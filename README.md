@@ -86,18 +86,18 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 
 ### Technologies used
 * [Cloud 9](https://c9.io/login) 
-..*the inital commits and work was made in C9. Problems with the CSS-Html-"communication" made me change from C9 to VS.  
+>>the inital commits and work was made in C9. Problems with the CSS-Html-"communication" made me change from C9 to VS.  
 * [Visual Studio](https://visualstudio.microsoft.com/) 
-..*Final commits and work was made in VS.
+>>Final commits and work was made in VS.
 * [Git Hub](https://github.com/) 
 * [W3 Validator](https://validator.w3.org/) -Html & CSS
 * [Gimp](https://www.gimp.org/) 
-..*Image editor used to provide the drawings with transparent backgrounds.
+>>Image editor used to provide the drawings with transparent backgrounds.
 * [Microsoft Word](https://office.live.com/start/Word.aspx) 
-..*Wireframe
-..*Drawings 
-..*Background 
-..*Artist images altering
+>>Wireframe
+>>Drawings 
+>>Background 
+>>Artist images altering
 * [Font Awsome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Chrome Inspector Tools](https://www.google.com/chrome/)
@@ -106,30 +106,49 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 ---
 
 ### Testing
-* Functionality Manual Testing of buttons and links
+* Functionality Manual Testing of buttons and links 
+>> Pointing to the right source
+>> not throwing an error
+>> external sites is opened as "Target blank"
+>> All buttons and links displayed properly in different sizes of Viewports
+>> Inspect collapsed behaviour to see it matches expectations in all Viewports
 * Functionality Manual Testing of hover-effects
+>> Test functionality to work and be logical for the user
+>> Test usability and make sure it's not slowing down the functionality
 * Functionality Manual Testing of Responsiveness (Chrome inspector tools)
+>> Test all above on different Viewports
 * Code validation Html -W3 Validator
 * Code validation CSS -W3 Validator
 
-#### Blackbox testing for User1 = Fan: 
-    * Access info about the band
-    * listen to music 
-    * See the movie
-    * Access social media and web shop
-    * Get latest news and tour-information.
-    * Get contact info and fill in contact form
+#### Blackbox testing for User 1 = The Fan: 
+  * Access info about the band
+  * listen to music 
+  * See the movie
+  * Access social media and web shop
+  * Get latest news and tour-information.
+  * Get contact info and fill in the contact form
     
-#### Blackbox testing for User2 = Booker: 
-    * Access booking information 
-    * Fill in the booking form.
+#### Blackbox testing for User 2 = The Booker: 
+  * Access booking information quick and easy
+  * Fill in the booking form.
 
-#### Blackbox testing for User3 = just curious person:
-    * Access Music and Video easily
-    * Quickly learn more about the band on beginners level
-    * Get useful links to learn more
-
+#### Blackbox testing for User 3 = The "Just curious person":
+   * Access Music and Video easily
+   * Quickly learn more about the band on beginners level
+   * Get useful links to learn more
 ---
+#### Bugs during testing
+   * Main problems for testing was to get my style.CSS to work properly in C9. This was the problem:
+   >> Once a setting in the CSS style file was made -changes wouldn't apply to the HTML even after alt F5 restarting the programme, etc
+   >> If to change a CSS class setting I had to rename the class and create a new class in the CSS file.
+   >> Sometimes CSS had to be written in the HTML to work.
+   
+   * Problem solving involved: 
+   >> Using a lot of Boostrap shorthand CSS in the Html for this project
+   >> Change to Visual Studio. 
+    
+   * [Read more about this bug](https://community.c9.io/t/changes-to-files-arent-propagating/9677) 
+
 
 ### Endpoints
 Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-endpoint)
