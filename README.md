@@ -123,8 +123,7 @@ Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-
 ### Deployment
 This work is originally made in C9 and later on moved to Visual Studio for better functionality. 
 The work has been pushed to Github from first C9 and later on VS. 
-As a "user page" the repository on Github is named <username>.github.io -
-this means it can only be published from the master branch.
+As a "user page" the repository on Github can only be published from the master branch.
   
 To configure a publishing source for Github Pages:  
 1. Go to the github repository
