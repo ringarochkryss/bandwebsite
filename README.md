@@ -15,13 +15,20 @@ Learn about band news and get contact information.
 Users can also easily use this site for booking requests.
 
 ---
+### Content & Media
+Images and the Movie is provided by Code Institute. 
+Other content comes from the following sources:
+* [monkees.com](https://www.monkees.com/) (pressrelease and image about Peter Tork) 
+* [monkees.net](https://www.monkees.net/) (tour info, tour picture and information about the band)
+* [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees/) (Content information for the text on the About site)
+* [BBC News](https://www.bbc.com/news/entertainment-arts-47319788) (Image for the card "Book the band")
 
 ### Users / Target Group 
 Users of this site is either fans, persons who wish to book the band or people who are just curious. 
 The site is organized with 6 html-pages:
 
 * Index -First page popping up contains quick-links for the fans and displays the latest news.
-* Listen -A page with several mp3:s to listen to.
+* Listen -Provides several mp3:s to listen to.
 * Book - Access all contact information and the possibilty to fill in a booking request form.
 * Look - A video displayed in a old tv -for the right feeling. And also links to more videos.
 * About  -Info about the band, the band members and current tour.
@@ -35,11 +42,12 @@ The footer provides the user with social links.
 ---
 
 ### Layout & UX 
-To mirror a 60:s style the layout for this website is old school with:
+To mirror a entertaining 60:s style the layout for this website is old school with:
 * retro crazy colors (defined below)
 * old school buttons in navbar and footer
 * rounded corners on images
 * custom-made old-style icons
+* Some silly hovering of icons
 
 The wireframe and all icons is made in MS Word. As this is a site about artists -the site aims to be artistic. 
 * User should get a feeling of the music by looking at the site.
@@ -70,7 +78,7 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 * User can listen to mp3:s
 * User can download pdf:s 
 * User can access social media 
-* User can access all kinds of additional info about the band though links to other websites
+* User can access all kinds of additional info about the band through links to other websites
 * User can access the Bands Webshop
 * User can access contact and booking information
 * User can contact the band through a modal form
@@ -78,9 +86,10 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 ---
 
 ### Languages used
-* Bootstrap 4 
 * html5 
 * Css
+* Bootstrap 4 (Javascript and Jquery) 
+
 
 ---
 
@@ -133,22 +142,25 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
   * Fill in the booking form.
 
 #### Blackbox testing for User 3 = The "Just curious person":
-   * Access Music and Video easily
+   * Access and play Music and Video easily
    * Quickly learn more about the band on beginners level
    * Get useful links to learn more
----
-#### Bugs during testing
-   * Main problems for testing was to get my style.CSS to work properly in C9. This was the problem:
-   >> Once a setting in the CSS style file was made -changes wouldn't apply to the HTML even after alt F5 restarting the programme, etc
-   >> If to change a CSS class setting I had to rename the class and create a new class in the CSS file.
-   >> Sometimes CSS had to be written in the HTML to work.
    
-   * Problem solving involved: 
-   >> Using a lot of Boostrap shorthand CSS in the Html for this project
-   >> Change to Visual Studio. 
+   >> Test all above on different Viewports
+
+
+#### Bugs during testing
+   * Bug found testing style.CSS and display it properly in C9. Problem description:
+   >> Once a setting in the style.css was made -changes wouldn't apply to the HTMLs even after alt F5, restarting the programme, changing class-names etc.
+   >>  CSS had to be written in the HTML to work.
+   
+   * Solutions: 
+   >> Using a lot of Boostrap shorthand CSS in the Html:s (and somtimes also write the styles in the htmls).
+   >> Changing to Visual Studio. 
     
    * [Read more about this bug](https://community.c9.io/t/changes-to-files-arent-propagating/9677) 
 
+---
 
 ### Endpoints
 Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-endpoint)
@@ -159,7 +171,7 @@ Learn more about [endpoints](https://teamtreehouse.com/community/what-is-an-api-
 This work is originally made in C9 and later on moved to Visual Studio for better functionality. 
 The work has been pushed to Github from first C9 and later on VS. 
 As a "user page" the repository on Github can only be published from the master branch.
-  
+
 To configure a publishing source for Github Pages:  
 1. Go to the github repository
 2. Click on Settings
@@ -181,13 +193,21 @@ To configure a publishing source for Github Pages:
 * :tv: Animate the tv to zoom up filling the whole screen once the look-page is opened.
 ---
 
+### Acknowledgements
+The Monkees already have a great site and this is a attempt to do something completely different from that. 
+* Inspiration from 60:s posters and covers of the Monkees and other famous bands and artists
+* Inspiration from the cartoonish style popular in the 60:s
+Acknowledgements to Monkees.com and monkees.net for inspiraton and facts.
+ 
+
+
 ### Installation
 ---
 ### License
 ---
 
-
-Mentored by: :star: @seunkoko   
+With great support from:
+Mentor: :star: @seunkoko   
 @code institute
 
 
