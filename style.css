@@ -85,6 +85,9 @@ body {
     color:#5b9bd5;
 }
 
+.disabled {
+    background-color: #222040;
+}
 
 .btn-cream2{
     background-color: #5b9bd5;
