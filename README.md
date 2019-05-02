@@ -94,38 +94,38 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
 ---
 
 ### Technologies used
-* [Cloud 9](https://c9.io/login) 
->>the inital commits and work was made in C9. Problems with the CSS-Html-"communication" made me change from C9 to VS.  
-* [Visual Studio](https://visualstudio.microsoft.com/) 
->>Final commits and work was made in VS.
-* [Git Hub](https://github.com/) 
-* [W3 Validator](https://validator.w3.org/) -Html & CSS
-* [Gimp](https://www.gimp.org/) 
->>Image editor used to provide the drawings with transparent backgrounds.
-* [Microsoft Word](https://office.live.com/start/Word.aspx) 
->>Wireframe
->>Drawings 
->>Background 
->>Artist images altering
-* [Font Awsome](https://fontawesome.com/)
-* [Google Fonts](https://fonts.google.com/)
-* [Chrome Inspector Tools](https://www.google.com/chrome/)
-* [Bootstrap 4](https://getbootstrap.com/)
+#### [Cloud 9](https://c9.io/login) 
+* the inital commits and work was made in C9. Problems with the CSS-Html-"communication" made me change from C9 to VS.  
+#### [Visual Studio](https://visualstudio.microsoft.com/) 
+* Final commits and work was made in VS.
+#### [Git Hub](https://github.com/) 
+#### [W3 Validator](https://validator.w3.org/) -Html & CSS
+#### [Gimp](https://www.gimp.org/) 
+* Image editor used to provide the drawings with transparent backgrounds.
+#### [Microsoft Word](https://office.live.com/start/Word.aspx) 
+* Wireframe
+* Drawings 
+* Background 
+* Artist images altering
+#### [Font Awsome](https://fontawesome.com/)
+#### [Google Fonts](https://fonts.google.com/)
+####  [Chrome Inspector Tools](https://www.google.com/chrome/)
+####  [Bootstrap 4](https://getbootstrap.com/)
 
 ---
 
 ### Testing
 * Functionality Manual Testing of buttons and links 
->> Pointing to the right source
->> not throwing an error
->> external sites is opened as "Target blank"
->> All buttons and links displayed properly in different sizes of Viewports
->> Inspect collapsed behaviour to see it matches expectations in all Viewports
+  * Pointing to the right source
+  * not throwing an error
+  * external sites is opened as "Target blank"
+  * All buttons and links displayed properly in different sizes of Viewports
+  * Inspect collapsed behaviour to see it matches expectations in all Viewports
 * Functionality Manual Testing of hover-effects
->> Test functionality to work and be logical for the user
->> Test usability and make sure it's not slowing down the functionality
+  * Test functionality to work and be logical for the user
+  *Test usability and make sure it's not slowing down the functionality
 * Functionality Manual Testing of Responsiveness (Chrome inspector tools)
->> Test all above on different Viewports
+  * Test all above on different Viewports
 * Code validation Html -W3 Validator
 * Code validation CSS -W3 Validator
 
@@ -146,17 +146,17 @@ The wireframe and all icons is made in MS Word. As this is a site about artists 
    * Quickly learn more about the band on beginners level
    * Get useful links to learn more
    
-   >> Test all above on different Viewports
+#### Test all above on different Viewports
 
 
 #### Bugs during testing
    * Bug found testing style.CSS and display it properly in C9. Problem description:
-   >> Once a setting in the style.css was made -changes wouldn't apply to the HTMLs even after alt F5, restarting the programme, changing class-names etc.
-   >>  CSS had to be written in the HTML to work.
+      * Once a setting in the style.css was made -changes wouldn't apply to the HTMLs even after alt F5, restarting the programme,        changing class-names etc.
+     * CSS had to be written in the HTML to work.
    
    * Solutions: 
-   >> Using a lot of Boostrap shorthand CSS in the Html:s (and somtimes also write the styles in the htmls).
-   >> Changing to Visual Studio. 
+     * Using a lot of Boostrap shorthand CSS in the Html:s (and somtimes also write the styles in the htmls).
+     * Changing to Visual Studio. 
     
    * [Read more about this bug](https://community.c9.io/t/changes-to-files-arent-propagating/9677) 
 
